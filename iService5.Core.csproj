@@ -1,0 +1,459 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: D:\AGD\Apps\iS5\iService5_1.64_APKPure\com.bshg.iservice5.droid\out\iService5.Core.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FCD0D698-3E0A-4DB0-BB1E-C846B207C69A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>iService5.Core</AssemblyName>
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <RootNamespace>iService5.Core</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AppDynamics.Agent">
+      <HintPath>lib\AppDynamics.Agent.dll</HintPath>
+    </Reference>
+    <Reference Include="AppDynamics.Agent.Forms">
+      <HintPath>lib\AppDynamics.Agent.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AppCenter.Analytics">
+      <HintPath>lib\Microsoft.AppCenter.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.Tokens">
+      <HintPath>lib\Microsoft.IdentityModel.Tokens.dll</HintPath>
+    </Reference>
+    <Reference Include="MvvmCross">
+      <HintPath>lib\MvvmCross.dll</HintPath>
+    </Reference>
+    <Reference Include="MvvmHelpers">
+      <HintPath>lib\MvvmHelpers.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>lib\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="OxyPlot">
+      <HintPath>lib\OxyPlot.dll</HintPath>
+    </Reference>
+    <Reference Include="Plugin.BreachDetector">
+      <HintPath>lib\Plugin.BreachDetector.dll</HintPath>
+    </Reference>
+    <Reference Include="Plugin.Toast">
+      <HintPath>lib\Plugin.Toast.dll</HintPath>
+    </Reference>
+    <Reference Include="Plugin.Toast.Abstractions">
+      <HintPath>lib\Plugin.Toast.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Rebex.Castle">
+      <HintPath>lib\Rebex.Castle.dll</HintPath>
+    </Reference>
+    <Reference Include="Rebex.Common">
+      <HintPath>lib\Rebex.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Rebex.Common.Native">
+      <HintPath>lib\Rebex.Common.Native.dll</HintPath>
+    </Reference>
+    <Reference Include="Rebex.Curve25519">
+      <HintPath>lib\Rebex.Curve25519.dll</HintPath>
+    </Reference>
+    <Reference Include="Rebex.Ed25519">
+      <HintPath>lib\Rebex.Ed25519.dll</HintPath>
+    </Reference>
+    <Reference Include="Rebex.Http">
+      <HintPath>lib\Rebex.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="Rebex.Networking">
+      <HintPath>lib\Rebex.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="Rebex.WebSocket">
+      <HintPath>lib\Rebex.WebSocket.dll</HintPath>
+    </Reference>
+    <Reference Include="SQLite-net">
+      <HintPath>lib\SQLite-net.dll</HintPath>
+    </Reference>
+    <Reference Include="Serilog">
+      <HintPath>lib\Serilog.dll</HintPath>
+    </Reference>
+    <Reference Include="Serilog.Sinks.File">
+      <HintPath>lib\Serilog.Sinks.File.dll</HintPath>
+    </Reference>
+    <Reference Include="ShimSkiaSharp">
+      <HintPath>lib\ShimSkiaSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="SkiaSharp">
+      <HintPath>lib\SkiaSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="SkiaSharp.Extended.Svg">
+      <HintPath>lib\SkiaSharp.Extended.Svg.dll</HintPath>
+    </Reference>
+    <Reference Include="SkiaSharp.Views.Forms">
+      <HintPath>lib\SkiaSharp.Views.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="Svg.Skia">
+      <HintPath>lib\Svg.Skia.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IdentityModel.Tokens.Jwt">
+      <HintPath>lib\System.IdentityModel.Tokens.Jwt.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Essentials">
+      <HintPath>lib\Xamarin.Essentials.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Forms.Core">
+      <HintPath>lib\Xamarin.Forms.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="iService5.Ssh">
+      <HintPath>lib\iService5.Ssh.dll</HintPath>
+    </Reference>
+    <Reference Include="netstandard" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BridgeRequestType.cs" />
+    <Compile Include="BridgeWifiResponse.cs" />
+    <Compile Include="ActionNames.cs" />
+    <Compile Include="iService5Core_ProcessedByFody.cs" />
+    <Compile Include="AppResource_de.cs" />
+    <Compile Include="AppResource.cs" />
+    <Compile Include="AppResource_es.cs" />
+    <Compile Include="AppResource_fr.cs" />
+    <Compile Include="AppResource_it.cs" />
+    <Compile Include="AppResource_pl.cs" />
+    <Compile Include="AppResource_ru.cs" />
+    <Compile Include="AppResource_tr.cs" />
+    <Compile Include="AppResource_zh.cs" />
+    <Compile Include="BuildProperties.cs" />
+    <Compile Include="CoreApp.cs" />
+    <Compile Include="is5Entry.cs" />
+    <Compile Include="is5ListView.cs" />
+    <Compile Include="is5NavPage.cs" />
+    <Compile Include="ViewModels\ApplianceDatabaseViewModel.cs" />
+    <Compile Include="ViewModels\DownloadParameter.cs" />
+    <Compile Include="ViewModels\ApplianceFlashViewModel.cs" />
+    <Compile Include="ViewModels\ApplianceInstructionConnectionNonSmmViewModel.cs" />
+    <Compile Include="ViewModels\ApplianceInstructionConnectionViewModel.cs" />
+    <Compile Include="ViewModels\ApplianceNonSMMFlashViewModel.cs" />
+    <Compile Include="ViewModels\ApplianceRepairViewModel.cs" />
+    <Compile Include="ViewModels\RebootTarget.cs" />
+    <Compile Include="ViewModels\BootModeTransitionViewModel.cs" />
+    <Compile Include="ViewModels\BridgeLogViewModel.cs" />
+    <Compile Include="ViewModels\BridgeSettingsViewModel.cs" />
+    <Compile Include="ViewModels\BridgeUpgradeInstructionsViewModel.cs" />
+    <Compile Include="ViewModels\InstructionItem.cs" />
+    <Compile Include="ViewModels\CatViewModel.cs" />
+    <Compile Include="ViewModels\CompactApplianceTesterViewModel.cs" />
+    <Compile Include="ViewModels\ControlSegmentsWithWebViewModel.cs" />
+    <Compile Include="ViewModels\DataPrivacyViewModel.cs" />
+    <Compile Include="ViewModels\DeleteApplianceFilesViewModel.cs" />
+    <Compile Include="ViewModels\DownloadSettingsViewModel.cs" />
+    <Compile Include="ViewModels\DeviceClass.cs" />
+    <Compile Include="ViewModels\DownloadOption.cs" />
+    <Compile Include="ViewModels\ErrorDetailViewModel.cs" />
+    <Compile Include="ViewModels\ErrorLogTransitionViewModel.cs" />
+    <Compile Include="ViewModels\ErrorLogViewModel.cs" />
+    <Compile Include="ViewModels\FeedbackFormViewModel.cs" />
+    <Compile Include="ViewModels\GraphicWiFiActivationNonSmmViewModel.cs" />
+    <Compile Include="ViewModels\GraphicWiFiActivationViewModel.cs" />
+    <Compile Include="ViewModels\HistoryDetailViewModel.cs" />
+    <Compile Include="ViewModels\HistoryViewModel.cs" />
+    <Compile Include="ViewModels\HomePageViewModel.cs" />
+    <Compile Include="ViewModels\ImprintViewModel.cs" />
+    <Compile Include="ViewModels\InAppBrowserViewModel.cs" />
+    <Compile Include="ViewModels\LegalInfoForLibViewModel.cs" />
+    <Compile Include="ViewModels\LegalInfoListViewModel.cs" />
+    <Compile Include="ViewModels\LoginViewModel.cs" />
+    <Compile Include="ViewModels\LongPressedEffect.cs" />
+    <Compile Include="ViewModels\MeasureViewModel.cs" />
+    <Compile Include="ViewModels\Measurement.cs" />
+    <Compile Include="ViewModels\TargetMeasurements.cs" />
+    <Compile Include="ViewModels\MeasurementResults.cs" />
+    <Compile Include="ViewModels\ApplianceStatus.cs" />
+    <Compile Include="ViewModels\FeatureAvailability.cs" />
+    <Compile Include="ViewModels\AdditionalOptions.cs" />
+    <Compile Include="ViewModels\Values.cs" />
+    <Compile Include="ViewModels\MonitoringGraphicsViewModel.cs" />
+    <Compile Include="ViewModels\NeedAccountViewModel.cs" />
+    <Compile Include="ViewModels\NonSmmApplianceCodingViewModel.cs" />
+    <Compile Include="ViewModels\NonSmmApplianceOldCodingViewModel.cs" />
+    <Compile Include="ViewModels\NonSmmCodingTransitionViewModel.cs" />
+    <Compile Include="ViewModels\NonSmmConnectionViewModel.cs" />
+    <Compile Include="ViewModels\DBusConnectionStatus.cs" />
+    <Compile Include="ViewModels\NonSmmErrorLogTransitionViewModel.cs" />
+    <Compile Include="ViewModels\NonSmmErrorLogViewModel.cs" />
+    <Compile Include="ViewModels\NonSMMFlasherListViewModel.cs" />
+    <Compile Include="ViewModels\NonSmmUploadFilesTransitionViewModel.cs" />
+    <Compile Include="ViewModels\PECheckViewModel.cs" />
+    <Compile Include="ViewModels\InstructionMessage.cs" />
+    <Compile Include="ViewModels\PECheckStatus.cs" />
+    <Compile Include="ViewModels\ReDownloadEnumberViewModel.cs" />
+    <Compile Include="ViewModels\SmmConnectionViewModel.cs" />
+    <Compile Include="ViewModels\HaInfoItems.cs" />
+    <Compile Include="ViewModels\StartWebSocketViewModel.cs" />
+    <Compile Include="ViewModels\StatusViewModel.cs" />
+    <Compile Include="ViewModels\TabViewModel.cs" />
+    <Compile Include="ViewModels\TestSVGAnimationViewModel.cs" />
+    <Compile Include="ViewModels\ValidationViewModel.cs" />
+    <Compile Include="ViewModels\VarCodingViewModel.cs" />
+    <Compile Include="ViewModels\WifiInfoViewModel.cs" />
+    <Compile Include="ViewModels\WorkPreparationViewModel.cs" />
+    <Compile Include="ViewModels\PrepareWorkEnumbers.cs" />
+    <Compile Include="ViewModels\SyMaNa\SyMaNaApplianceFlashViewModel.cs" />
+    <Compile Include="ViewModels\SyMaNa\SyMaNaApplianceInstructionConnectionViewModel.cs" />
+    <Compile Include="ViewModels\SyMaNa\SyMaNaConnectionViewModel.cs" />
+    <Compile Include="Services\WebSocket\ISecurityService.cs" />
+    <Compile Include="Services\WebSocket\IWebSocketService.cs" />
+    <Compile Include="Services\WebSocket\SecurityService.cs" />
+    <Compile Include="Services\WebSocket\WebSocketService.cs" />
+    <Compile Include="Services\VersionReport\IVersionReport.cs" />
+    <Compile Include="Services\VersionReport\VersionReport.cs" />
+    <Compile Include="Services\User\IUserAccount.cs" />
+    <Compile Include="Services\User\SessionActivation.cs" />
+    <Compile Include="Services\User\SupportMailSendStatus.cs" />
+    <Compile Include="Services\User\MetadataStatus.cs" />
+    <Compile Include="Services\User\DownloadStatus.cs" />
+    <Compile Include="Services\User\SignCertificateStatus.cs" />
+    <Compile Include="Services\User\activationCompletionCallback.cs" />
+    <Compile Include="Services\User\metadataUpdateCallback.cs" />
+    <Compile Include="Services\User\deactivationCompletionCallback.cs" />
+    <Compile Include="Services\User\progressCallback.cs" />
+    <Compile Include="Services\User\exceptionCallback.cs" />
+    <Compile Include="Services\User\downloadCallback.cs" />
+    <Compile Include="Services\User\sendSupportFormCompletionCallback.cs" />
+    <Compile Include="Services\User\signCertificateCompletionCallback.cs" />
+    <Compile Include="Services\User\BinaryDownloadTask.cs" />
+    <Compile Include="Services\User\SignCertificateTask.cs" />
+    <Compile Include="Services\User\IUserSession.cs" />
+    <Compile Include="Services\User\UserAccount.cs" />
+    <Compile Include="Services\User\UserSession.cs" />
+    <Compile Include="Services\User\ActivityLogging\LoggingLevel.cs" />
+    <Compile Include="Services\User\ActivityLogging\LoggingContext.cs" />
+    <Compile Include="Services\User\ActivityLogging\ILoggingService.cs" />
+    <Compile Include="Services\User\ActivityLogging\LoggerExtensions.cs" />
+    <Compile Include="Services\User\ActivityLogging\LoggingService.cs" />
+    <Compile Include="Services\Security\SslValidator.cs" />
+    <Compile Include="Services\Platform\FingerprintVerification.cs" />
+    <Compile Include="Services\Platform\fingerprintCompletionCallback.cs" />
+    <Compile Include="Services\Platform\PopUpCancelledCallback.cs" />
+    <Compile Include="Services\Platform\NetworkConnected.cs" />
+    <Compile Include="Services\Platform\IPlatformSpecificService.cs" />
+    <Compile Include="Services\Platform\IPlatformSpecificServiceLocator.cs" />
+    <Compile Include="Services\Platform\PlatformSpecificServiceLocator.cs" />
+    <Compile Include="Services\Localisation\IShortTextsService.cs" />
+    <Compile Include="Services\Localisation\ShortTextsService.cs" />
+    <Compile Include="Services\Local\ILocalUserAuthentication.cs" />
+    <Compile Include="Services\Local\LocalUserAuthentication.cs" />
+    <Compile Include="Services\Helpers\ADNetworkRequestTracker.cs" />
+    <Compile Include="Services\Helpers\AlertService.cs" />
+    <Compile Include="Services\Helpers\BridgeResponse.cs" />
+    <Compile Include="Services\Helpers\ConnectivityService.cs" />
+    <Compile Include="Services\Helpers\HTTPMethodType.cs" />
+    <Compile Include="Services\Helpers\MODULE_ARCHITECTURE_TYPE.cs" />
+    <Compile Include="Services\Helpers\TargetLodisType.cs" />
+    <Compile Include="Services\Helpers\Constants.cs" />
+    <Compile Include="Services\Helpers\EnumHelper.cs" />
+    <Compile Include="Services\Helpers\FeatureConfiguration.cs" />
+    <Compile Include="Services\Helpers\FileSizeFormatter.cs" />
+    <Compile Include="Services\Helpers\FormUpload.cs" />
+    <Compile Include="Services\Helpers\IAlertService.cs" />
+    <Compile Include="Services\Helpers\DetailNavigationArgs.cs" />
+    <Compile Include="Services\Helpers\DetailReturnArgs.cs" />
+    <Compile Include="Services\Helpers\DetailNavigationPageType.cs" />
+    <Compile Include="Services\Helpers\IConnectivityService.cs" />
+    <Compile Include="Services\Helpers\SecureStorageKeys.cs" />
+    <Compile Include="Services\Helpers\ISecureStorageService.cs" />
+    <Compile Include="Services\Helpers\LocalMigrationHelper.cs" />
+    <Compile Include="Services\Helpers\DeprecatedKeys.cs" />
+    <Compile Include="Services\Helpers\PPFRefetchStatus.cs" />
+    <Compile Include="Services\Helpers\UpdatePPFCompletion.cs" />
+    <Compile Include="Services\Helpers\PPFRefetchHelper.cs" />
+    <Compile Include="Services\Helpers\RebexHelper.cs" />
+    <Compile Include="Services\Helpers\CertificateIssuerData.cs" />
+    <Compile Include="Services\Helpers\SecureStorageService.cs" />
+    <Compile Include="Services\Helpers\ErrorType.cs" />
+    <Compile Include="Services\Helpers\ServiceError.cs" />
+    <Compile Include="Services\Helpers\SyMaNaUtilityFunctions.cs" />
+    <Compile Include="Services\Helpers\HistoryDBInfoType.cs" />
+    <Compile Include="Services\Helpers\UtilityFunctions.cs" />
+    <Compile Include="Services\Helpers\Topogram\ITopogram.cs" />
+    <Compile Include="Services\Helpers\Topogram\ITopogramComponent.cs" />
+    <Compile Include="Services\Helpers\Topogram\ITopogramParser.cs" />
+    <Compile Include="Services\Helpers\Topogram\ITopogramScreen.cs" />
+    <Compile Include="Services\Helpers\Topogram\Topogram.cs" />
+    <Compile Include="Services\Helpers\Topogram\TopogramComponentType.cs" />
+    <Compile Include="Services\Helpers\Topogram\TopogramComponent.cs" />
+    <Compile Include="Services\Helpers\Topogram\TopogramException.cs" />
+    <Compile Include="Services\Helpers\Topogram\TopogramParser.cs" />
+    <Compile Include="Services\Helpers\Topogram\TopogramScreen.cs" />
+    <Compile Include="Services\Helpers\SVGParser\IMonitoringGraphicsSVG.cs" />
+    <Compile Include="Services\Helpers\SVGParser\ISVGParser.cs" />
+    <Compile Include="Services\Helpers\SVGParser\MonitoringGraphicsSVG.cs" />
+    <Compile Include="Services\Helpers\SVGParser\SVGParser.cs" />
+    <Compile Include="Services\Helpers\SVGParser\SVGParserException.cs" />
+    <Compile Include="Services\Helpers\Converters\DeviceCultureDateConverter.cs" />
+    <Compile Include="Services\Helpers\Converters\DeviceCultureTimeConverter.cs" />
+    <Compile Include="Services\Helpers\Converters\InverseBoolConverter.cs" />
+    <Compile Include="Services\Helpers\Converters\MeasurementBoolToImageConverter.cs" />
+    <Compile Include="Services\Helpers\Converters\MeasurementBoolToOkNotOkConverter.cs" />
+    <Compile Include="Services\Helpers\Converters\ProgressBarColorConverter.cs" />
+    <Compile Include="Services\Helpers\Converters\TextColorConverter.cs" />
+    <Compile Include="Services\Helpers\Converters\WindowWidthToFontSizeConverter.cs" />
+    <Compile Include="Services\Data\ApplianceInstruction.cs" />
+    <Compile Include="Services\Data\BridgeSettingsConstAndMethods.cs" />
+    <Compile Include="Services\Data\BridgeSettingUI.cs" />
+    <Compile Include="Services\Data\CATMeasurementTitle.cs" />
+    <Compile Include="Services\Data\CATSUnitsConverter.cs" />
+    <Compile Include="Services\Data\FeatureAvailabilityFeature.cs" />
+    <Compile Include="Services\Data\FeatureAvailabilityStatus.cs" />
+    <Compile Include="Services\Data\CATMeasurement.cs" />
+    <Compile Include="Services\Data\CertificateData.cs" />
+    <Compile Include="Services\Data\Country.cs" />
+    <Compile Include="Services\Data\progressCallback.cs" />
+    <Compile Include="Services\Data\CustomMemoryStream.cs" />
+    <Compile Include="Services\Data\DownloadSettings.cs" />
+    <Compile Include="Services\Data\History.cs" />
+    <Compile Include="Services\Data\HistoryDB.cs" />
+    <Compile Include="Services\Data\MatchPattern.cs" />
+    <Compile Include="Services\Data\IMetadataService.cs" />
+    <Compile Include="Services\Data\DownloadProxy.cs" />
+    <Compile Include="Services\Data\PpfsInfo.cs" />
+    <Compile Include="Services\Data\PPF.cs" />
+    <Compile Include="Services\Data\smm.cs" />
+    <Compile Include="Services\Data\smm_recovery_reboot.cs" />
+    <Compile Include="Services\Data\enumber_modules.cs" />
+    <Compile Include="Services\Data\smm_module.cs" />
+    <Compile Include="Services\Data\module_with_enumber.cs" />
+    <Compile Include="Services\Data\module.cs" />
+    <Compile Include="Services\Data\module_downloaded.cs" />
+    <Compile Include="Services\Data\document.cs" />
+    <Compile Include="Services\Data\uploadDocument.cs" />
+    <Compile Include="Services\Data\smm_firmware_ids.cs" />
+    <Compile Include="Services\Data\material.cs" />
+    <Compile Include="Services\Data\varcodes.cs" />
+    <Compile Include="Services\Data\shorttexts.cs" />
+    <Compile Include="Services\Data\configuration.cs" />
+    <Compile Include="Services\Data\smm_whitelist.cs" />
+    <Compile Include="Services\Data\1ppf.cs" />
+    <Compile Include="Services\Data\SmmQueryHelperFinal.cs" />
+    <Compile Include="Services\Data\AugmentedModule.cs" />
+    <Compile Include="Services\Data\NonSmmModule.cs" />
+    <Compile Include="Services\Data\NonSmmInstructions.cs" />
+    <Compile Include="Services\Data\Screen.cs" />
+    <Compile Include="Services\Data\ModuleType.cs" />
+    <Compile Include="Services\Data\DownloadFilesStatistics.cs" />
+    <Compile Include="Services\Data\MaterialStatistics.cs" />
+    <Compile Include="Services\Data\FileType.cs" />
+    <Compile Include="Services\Data\MetadataDB.cs" />
+    <Compile Include="Services\Data\MetadataService.cs" />
+    <Compile Include="Services\Data\Settings.cs" />
+    <Compile Include="Services\Data\SettingsDB.cs" />
+    <Compile Include="Services\Data\SyMaNaHaInfo.cs" />
+    <Compile Include="Services\Data\SyMaNaHaInfoData.cs" />
+    <Compile Include="Services\Data\SyMaNaHaInfoItems.cs" />
+    <Compile Include="Services\Data\SyMaNaECUInfoData.cs" />
+    <Compile Include="Services\Data\UIDataWithValidationMethods.cs" />
+    <Compile Include="Services\Data\UIDataWithValidation.cs" />
+    <Compile Include="Services\Data\VariantCodingData.cs" />
+    <Compile Include="Services\Data\VariantCodingDataToJson.cs" />
+    <Compile Include="Services\Data\VariantCodingDataToJsonList.cs" />
+    <Compile Include="Services\Data\Version.cs" />
+    <Compile Include="Services\Data\NullVersion.cs" />
+    <Compile Include="Services\Data\SyMaNa\SyMaNaFirmwareUploadModel.cs" />
+    <Compile Include="Services\Data\SyMaNa\SyMaNaHomeConnectProtocol.cs" />
+    <Compile Include="Services\Data\SyMaNa\SyMaNaWebsocketData.cs" />
+    <Compile Include="Services\Data\SyMaNa\InitialValuesReceived.cs" />
+    <Compile Include="Services\Data\SyMaNa\InitialValuesReceivedData.cs" />
+    <Compile Include="Services\Data\SyMaNa\InitialValuesSending.cs" />
+    <Compile Include="Services\Data\SyMaNa\InitialValuesSendingData.cs" />
+    <Compile Include="Services\Data\SyMaNa\CiServiceReceived.cs" />
+    <Compile Include="Services\Data\SyMaNa\CiServiceReceivedData.cs" />
+    <Compile Include="Services\Data\SyMaNa\SyMaNaLodisDataModel.cs" />
+    <Compile Include="Services\Data\SyMaNa\SyMaNaLodisRequestData.cs" />
+    <Compile Include="Services\Data\SyMaNa\SyMaNaLodisResponse.cs" />
+    <Compile Include="Services\Data\SyMaNa\SyMaNaLodisResponseData.cs" />
+    <Compile Include="Services\Data\SyMaNa\SyMaNaLodisParameters.cs" />
+    <Compile Include="Services\Data\SyMaNa\PackageList.cs" />
+    <Compile Include="Services\Data\SyMaNa\SyMaNaReturnValue.cs" />
+    <Compile Include="Services\Data\SyMaNa\StartInstallation.cs" />
+    <Compile Include="Services\Data\SyMaNa\StringListToStartInstallation.cs" />
+    <Compile Include="Services\Data\SyMaNa\VerificationResults.cs" />
+    <Compile Include="Services\Data\SyMaNa\SyMaNaRequestCommandName.cs" />
+    <Compile Include="Services\Data\SyMaNa\SyMaNaWebSocketServices.cs" />
+    <Compile Include="Services\Backend\Backend.cs" />
+    <Compile Include="Services\Backend\RequestType.cs" />
+    <Compile Include="Services\Backend\BackendDetails.cs" />
+    <Compile Include="Services\Backend\BackendUserAuthentication.cs" />
+    <Compile Include="Services\Backend\BinaryDownloadSession.cs" />
+    <Compile Include="Services\Backend\BridgeHttpClient.cs" />
+    <Compile Include="Services\Backend\BackendRequestStatus.cs" />
+    <Compile Include="Services\Backend\IBackend`1.cs" />
+    <Compile Include="Services\Backend\IBackendDetails`1.cs" />
+    <Compile Include="Services\Backend\responseCallback.cs" />
+    <Compile Include="Services\Backend\IBackendUserAuthentication`1.cs" />
+    <Compile Include="Services\Backend\IBinaryDownloadSession`1.cs" />
+    <Compile Include="Services\Backend\IBridgeHttpClient.cs" />
+    <Compile Include="Services\Backend\ISigningCertificate`1.cs" />
+    <Compile Include="Services\Backend\ISyMaNaWebClient.cs" />
+    <Compile Include="Services\Backend\SigningCertificate.cs" />
+    <Compile Include="Services\Backend\SyMaNaWebClientResponse.cs" />
+    <Compile Include="Services\Backend\SyMaNaWebClient.cs" />
+    <Compile Include="Services\Appliance\Appliance.cs" />
+    <Compile Include="Services\Appliance\ApplianceSession.cs" />
+    <Compile Include="Services\Appliance\connectivityUpdateCallback.cs" />
+    <Compile Include="Services\Appliance\IAppliance.cs" />
+    <Compile Include="Services\Appliance\FirmwareIDComparisonDecision.cs" />
+    <Compile Include="Services\Appliance\FirmwareVersionComparisonDecision.cs" />
+    <Compile Include="Services\Appliance\FirmwareInstallMode.cs" />
+    <Compile Include="Services\Appliance\SMMFeatures.cs" />
+    <Compile Include="Services\Appliance\ProgressCallback.cs" />
+    <Compile Include="Services\Appliance\UIUpdateCallback.cs" />
+    <Compile Include="Services\Appliance\MessageCallback.cs" />
+    <Compile Include="Services\Appliance\FinishCallback.cs" />
+    <Compile Include="Services\Appliance\RequestCallback.cs" />
+    <Compile Include="Services\Appliance\IApplianceSession.cs" />
+    <Compile Include="Services\Appliance\ApplianceTaskCallback`1.cs" />
+    <Compile Include="Services\Appliance\ApplianceTaskException.cs" />
+    <Compile Include="Services\Appliance\ApplianceTask`1.cs" />
+    <Compile Include="Services\Appliance\Reboot.cs" />
+    <Compile Include="Services\Appliance\ApplySecurity.cs" />
+    <Compile Include="Services\Appliance\Security.cs" />
+    <Compile Include="Services\Appliance\FirmwareInstallation.cs" />
+    <Compile Include="Services\Appliance\UploadFirmware.cs" />
+    <Compile Include="Services\Appliance\InstallFirmware.cs" />
+    <Compile Include="Services\Appliance\EnableEcuUpdate.cs" />
+    <Compile Include="Services\Appliance\EcuUpdate.cs" />
+    <Compile Include="Services\Appliance\ApplySortedFirmwareList.cs" />
+    <Compile Include="Services\Appliance\Unzip.cs" />
+    <Compile Include="Services\Appliance\Sort.cs" />
+    <Compile Include="Services\Appliance\BootModeChange.cs" />
+    <Compile Include="Services\Appliance\ReverseComparer`1.cs" />
+    <Compile Include="Services\Appliance\Purge.cs" />
+    <Compile Include="Services\Appliance\IIPAddressManager.cs" />
+    <Compile Include="Services\Appliance\Is5SshWrapper.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AppResource.resx" />
+    <EmbeddedResource Include="BuildProperties.resx" />
+    <EmbeddedResource Include="resources\MockCertificates\CACertificate.pem" />
+    <EmbeddedResource Include="resources\MockCertificates\CertificateKey.pem" />
+    <EmbeddedResource Include="resources\MockCertificates\SignedCertificate.pem" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>

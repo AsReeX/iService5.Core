@@ -1,0 +1,2195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="JWT_TOKEN_EXPIRED" xml:space="preserve">
+    <value>Login session expired. Please login again.</value>
+  </data>
+  <data name="FULL_DOWNLOAD_DESCRIPTION_TEXT" xml:space="preserve">
+    <value>This option will download or maintain all E-Numbers.</value>
+  </data>
+  <data name="APPLIANCE_FLASH_REQUESTED_REBOOT" xml:space="preserve">
+    <value>Requested reboot</value>
+  </data>
+  <data name="CONN_PAGE_MONITORING_DISABLED_TOPOGRAM_NOT_FOUND" xml:space="preserve">
+    <value>Monitoring disabled. Der Dateiname des Topogramms konnte nicht ermittelt werden.</value>
+  </data>
+  <data name="FULL_DOWNLOAD_TEXT" xml:space="preserve">
+    <value>Full download</value>
+  </data>
+  <data name="ST_PAGE_APL_FILES" xml:space="preserve">
+    <value>Appliance files:</value>
+  </data>
+  <data name="ST_PAGE_HEADER" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="CHECK_DBUS_CONNECTION" xml:space="preserve">
+    <value>Please check DBus connection</value>
+  </data>
+  <data name="APPLIANCE_FLASH_BACK_TEXT" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="ERROR_SET_HA_COUNTRY_SETTINGS" xml:space="preserve">
+    <value>Failed to Set CountrySettings</value>
+  </data>
+  <data name="UPLOAD_TEXT" xml:space="preserve">
+    <value>Upload</value>
+  </data>
+  <data name="EMAIL_TEXT" xml:space="preserve">
+    <value>E-Mail</value>
+  </data>
+  <data name="SMM_CONN_DEVICE_NOT_COMPLETE" xml:space="preserve">
+    <value>Communication with appliance is not complete</value>
+  </data>
+  <data name="MSG_FLASHING_ERROR" xml:space="preserve">
+    <value>Flashing was not successful. Please contact support or try again.</value>
+  </data>
+  <data name="STATUS_PAGE_UPDATE_EXPIRED_PPF" xml:space="preserve">
+    <value>Updating additional files...</value>
+  </data>
+  <data name="SAVE_TEXT" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="APPLIANCE_FLASH_PROGRAM_NOT_YET" xml:space="preserve">
+    <value>You cannot re-program this appliance. Please use an empty SystemMaster.</value>
+  </data>
+  <data name="RE_DOWNLOAD" xml:space="preserve">
+    <value>Re-Download</value>
+  </data>
+  <data name="TOTAL_FILES_TEXT" xml:space="preserve">
+    <value>Total number of files:</value>
+  </data>
+  <data name="COUNTRY_NORTH_AMERICA" xml:space="preserve">
+    <value>Default / North America</value>
+  </data>
+  <data name="APPLIANCE_FLASH_AVAILABLE" xml:space="preserve">
+    <value>Available</value>
+  </data>
+  <data name="PROGRAM" xml:space="preserve">
+    <value>Program</value>
+  </data>
+  <data name="LOGIN_PAGE_PASSWORD_PLACEHOLDER" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="APPLIANCE_FLASH_PROGRAM_NEW_ALL" xml:space="preserve">
+    <value>Do you want to program only new files or all files?</value>
+  </data>
+  <data name="SMM_CONN_BOOTMODE_NO_VALUE" xml:space="preserve">
+    <value>Bootmode switch failed because boot mode has no value yet.</value>
+  </data>
+  <data name="HISTORY_DETAILS_HEADER_RIS" xml:space="preserve">
+    <value>RIS</value>
+  </data>
+  <data name="BOOT_MODE_TRANSITION_APPLIANCE_IS_REBOOTING_TO_RECOVERY" xml:space="preserve">
+    <value>Appliance is rebooting to Recovery System.</value>
+  </data>
+  <data name="READ_INVENTORY_TEXT" xml:space="preserve">
+    <value>Read Inventory</value>
+  </data>
+  <data name="ST_PAGE_DWL_WIFI_ONLY" xml:space="preserve">
+    <value>Download Only Over WiFi</value>
+  </data>
+  <data name="SMM_APPLIANCE_IS_REBOOTING_TO_ELP" xml:space="preserve">
+    <value>Appliance reboots to Normal System. Please wait.</value>
+  </data>
+  <data name="FP_POPUP_HEADER" xml:space="preserve">
+    <value>Fingerprint for "iService5"</value>
+  </data>
+  <data name="CONN_PAGE_SETTINGS" xml:space="preserve">
+    <value>Settings </value>
+  </data>
+  <data name="SYMANA_BINARY_UPLOAD_RETRY_MESSAGE" xml:space="preserve">
+    <value>iService could not upload data to home appliance. Please try again.</value>
+  </data>
+  <data name="MEMORY_TRANSITION_PAGE_COLLECTING" xml:space="preserve">
+    <value>Please wait. Memory of home appliance is read out.</value>
+  </data>
+  <data name="NO_MEMORY_LOG_TO_DISPLAY" xml:space="preserve">
+    <value>No memory log available</value>
+  </data>
+  <data name="COUNTRY_EUROPE" xml:space="preserve">
+    <value>Europe</value>
+  </data>
+  <data name="REPAIR_PAGE_APPLIANCE_DATA_UPD_REQUIRED" xml:space="preserve">
+    <value>Update of appliance files is required.</value>
+  </data>
+  <data name="NOT_NOW_TEXT" xml:space="preserve">
+    <value>Not now</value>
+  </data>
+  <data name="DISCONNECTED_TEXT" xml:space="preserve">
+    <value>Disconnected</value>
+  </data>
+  <data name="ST_PAGE_OFFLINE_USE" xml:space="preserve">
+    <value>Use iService offline</value>
+  </data>
+  <data name="SMM_CONN_BRAND" xml:space="preserve">
+    <value>Brand</value>
+  </data>
+  <data name="SMM_CONN_BOSCH" xml:space="preserve">
+    <value>Bosch</value>
+  </data>
+  <data name="NAVIGATE_REPAIR_BTN_LABEL" xml:space="preserve">
+    <value>Repair</value>
+  </data>
+  <data name="METADATA_DL_FAIL_MSG" xml:space="preserve">
+    <value>An error occured while downloading appliance list. Please try again later.</value>
+  </data>
+  <data name="HISTORY_UNDER_CONSTRUCTION" xml:space="preserve">
+    <value>This function is not supported yet.</value>
+  </data>
+  <data name="DELETE_ALL_APPLIANCE_FILES_BUTTON_TEXT" xml:space="preserve">
+    <value>Delete all appliance files</value>
+  </data>
+  <data name="ERROR_SET_HA_BRAND" xml:space="preserve">
+    <value>Failed to Set Brand</value>
+  </data>
+  <data name="CONN_PAGE_FLASHING_DISABLED_MISSINGBINARY" xml:space="preserve">
+    <value>Program disabled. Files are missing.</value>
+  </data>
+  <data name="PROGRAM_ALL_TEXT" xml:space="preserve">
+    <value>Program all</value>
+  </data>
+  <data name="APPLIANCE_FLASH_FAILURES" xml:space="preserve">
+    <value>Some programming failures have occurred, please try once again.
+</value>
+  </data>
+  <data name="RE_DOWNLOAD_ENUMBER_VIEW" xml:space="preserve">
+    <value>Re-Download Enumber</value>
+  </data>
+  <data name="CONN_PAGE_WAIT_FOR_CLICK" xml:space="preserve">
+    <value>Click Connect. </value>
+  </data>
+  <data name="CONN_PAGE_FLASHING_DISABLED_SMM_CONN_DEVICE_NOT_COMPLETE" xml:space="preserve">
+    <value>Program disabled. Communication with appliance is not complete.</value>
+  </data>
+  <data name="CONN_PAGE_MODE_CHANGE_DISABLED_SMM_CONN_DEVICE_FAILED_TO_COMMUNICATE" xml:space="preserve">
+    <value>Mode Switch disabled. Program disabled. Failed to communicate with Appliance.</value>
+  </data>
+  <data name="REPAIR_PAGE_CONTINUE_WITHOUT_DOWNLOAD" xml:space="preserve">
+    <value>Continue without dowloading</value>
+  </data>
+  <data name="MEASURE" xml:space="preserve">
+    <value>Measure</value>
+  </data>
+  <data name="LOG_SESSION_ERROR" xml:space="preserve">
+    <value>Error getting log sessions response</value>
+  </data>
+  <data name="APPLIANCE_FLASH_DATA_SUPPLY_OUTDATED" xml:space="preserve">
+    <value>Data supply outdated. Programming not possible</value>
+  </data>
+  <data name="ERROR__TRANSITION_PAGE_COLLECTING" xml:space="preserve">
+    <value>Downloading error log.</value>
+  </data>
+  <data name="IMPRINT_DATA_3_PHONENO" xml:space="preserve">
+    <value>Telephone: +49 (0)89 45 90 01</value>
+  </data>
+  <data name="APPLIANCE_FLASH_DATA_SUPPLY_PROBLEM" xml:space="preserve">
+    <value>Data supply problem. Programming not possible.</value>
+  </data>
+  <data name="APPLIANCE_ECU_CHECKING_CONDITIONS" xml:space="preserve">
+    <value>Checking conditions for task Ecuprogramming</value>
+  </data>
+  <data name="ALERT_TEXT" xml:space="preserve">
+    <value>Alert</value>
+  </data>
+  <data name="MEASURE_CAT_RESET_COMMAND_SENT" xml:space="preserve">
+    <value>CAT reset command was successfuly sent to bridge.</value>
+  </data>
+  <data name="INSTALLED_FIRMWARE_BEFORE_PROGRAMMING" xml:space="preserve">
+    <value>Installed firmware before programming:</value>
+  </data>
+  <data name="UP_TO_DATE_TEXT" xml:space="preserve">
+    <value>Up-to-date</value>
+  </data>
+  <data name="STATUS_PPF_REFETCHING" xml:space="preserve">
+    <value>Certificates (PPF) will be renewed.</value>
+  </data>
+  <data name="START_WEB_SOCKET_TEXT" xml:space="preserve">
+    <value>Start Web Socket</value>
+  </data>
+  <data name="APPLIANCE_SELECT_A_FLASHER_HEADER" xml:space="preserve">
+    <value>Select a Flasher</value>
+  </data>
+  <data name="SMM_CONN_MANUF_TIME" xml:space="preserve">
+    <value>Manufacturing TimeStamp</value>
+  </data>
+  <data name="CONN_PAGE_PROGRAMMING_DISABLED_DATA_SUPPLY" xml:space="preserve">
+    <value>Programming disabled because of data-supply issue.</value>
+  </data>
+  <data name="SMM_CONN_DEVICE_REQUESTING_REBOOT" xml:space="preserve">
+    <value>Requesting reboot.</value>
+  </data>
+  <data name="CONN_PAGE_FLASHING_DISABLED_PPF_NOT_AVAILABLE" xml:space="preserve">
+    <value>Program disabled. Auxiliary files are missing.</value>
+  </data>
+  <data name="GENERIC_ERROR_MESSAGE" xml:space="preserve">
+    <value>An error occured. Please check your connection, try again later or contact your support.</value>
+  </data>
+  <data name="COMPACT_APPLIANCE_TESTER" xml:space="preserve">
+    <value>Compact Appliance Tester</value>
+  </data>
+  <data name="APPLIANCE_FLASH_INSTALLED" xml:space="preserve">
+    <value>Installed</value>
+  </data>
+  <data name="CODING" xml:space="preserve">
+    <value>Coding</value>
+  </data>
+  <data name="LOG_MAIN_REDOWNLOAD" xml:space="preserve">
+    <value>Redownload mainlog</value>
+  </data>
+  <data name="CONN_PAGE_WAIT_FOR_CONNECTION" xml:space="preserve">
+    <value>As soon as connection to appliance WiFi is established, click "Connect". </value>
+  </data>
+  <data name="INSTALLED_FIRMWARE_AFTER_PROGRAMMING" xml:space="preserve">
+    <value>Installed firmware after programming:</value>
+  </data>
+  <data name="ST_PAGE_LAST_UPD" xml:space="preserve">
+    <value>Last update:</value>
+  </data>
+  <data name="SMM_CONN_DEVICE_TYPE" xml:space="preserve">
+    <value>Device Type</value>
+  </data>
+  <data name="ST_PAGE_BRIDGE_TOGGLE" xml:space="preserve">
+    <value>iService Wi-Fi Bridge available</value>
+  </data>
+  <data name="APPLIANCE_FLASH_PROCESS_FINISHED" xml:space="preserve">
+    <value>Process Finished</value>
+  </data>
+  <data name="PROCESSING_DATA" xml:space="preserve">
+    <value>Processing Data…</value>
+  </data>
+  <data name="PE_CHECK_FAILED_WARNING_TITLE" xml:space="preserve">
+    <value>Attention! Risk of death!</value>
+  </data>
+  <data name="INITIALIZAING_WEBSOCKET_CON" xml:space="preserve">
+    <value>Initailizing web socket...</value>
+  </data>
+  <data name="WIFI_INFO_PAGE_HINT" xml:space="preserve">
+    <value>Tap on the password to copy it to the clipboard. Afterwards you can paste it as password for "BSH...".</value>
+  </data>
+  <data name="BRIDGE_SETTINGS_ZIP_HELP" xml:space="preserve">
+    <value>Filename must be a .zip with up to {0} letter characters</value>
+  </data>
+  <data name="CONN_PAGE_WAIT_FOR_BRIDGE_DEVICE" xml:space="preserve">
+    <value>Establish cable connection between iService bridge and home appliance.</value>
+  </data>
+  <data name="HOME_PAGE_ENUMBER_LABEL_TEXT" xml:space="preserve">
+    <value>Enter E-Number</value>
+  </data>
+  <data name="HA_INFO_RETRY_MESSAGE_IOS_14" xml:space="preserve">
+    <value>iService could not receive data from home appliance. 
+Please make sure the local networks usage is allowed and try again.</value>
+  </data>
+  <data name="SMM_CONN_DISHWASHER" xml:space="preserve">
+    <value>Dishwasher</value>
+  </data>
+  <data name="SYMANA_FAILED_UPLOAD_PACKAGES_MSG" xml:space="preserve">
+    <value>Failed packages are:</value>
+  </data>
+  <data name="APPLIANCE_FLASH_INITIATING_BOOT_MODE_CHANGE" xml:space="preserve">
+    <value>Initiating Boot Mode Change</value>
+  </data>
+  <data name="PROGRAMMING_FAILED_WITH_RESULT_CODE" xml:space="preserve">
+    <value>Programming failed with result code </value>
+  </data>
+  <data name="SYMANA_INSTALLATION_STARTED_BUTTON" xml:space="preserve">
+    <value>Installation Started...</value>
+  </data>
+  <data name="SYMANA_PACKAGE_UPLOAD_FAILED" xml:space="preserve">
+    <value>Prepare Package Upload failed</value>
+  </data>
+  <data name="CODING_FAILED" xml:space="preserve">
+    <value>Coding Failed!</value>
+  </data>
+  <data name="FP_POPUP_CANCEL" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="JAILBROKEN_WARNING_TEXT" xml:space="preserve">
+    <value>This device appears to be jailbroken and can not be trusted to run this app securely.</value>
+  </data>
+  <data name="CONN_PAGE_CONTROL_DISABLED_DOCUMENT_NOT_FOUND" xml:space="preserve">
+    <value>Control disabled.Document are not found.</value>
+  </data>
+  <data name="SMM_CONN_DEVICE_CANNOT_PROCEED" xml:space="preserve">
+    <value>Device is not secured, cannot proceed</value>
+  </data>
+  <data name="HISTORY_DETAILS_HEADER_MEMORY_LOG" xml:space="preserve">
+    <value>Memory</value>
+  </data>
+  <data name="NONSMM_UPLOAD_TRANSITION_PAGE_COLLECTING" xml:space="preserve">
+    <value>Please wait. Files are being uploaded to iService Bridge.</value>
+  </data>
+  <data name="BRIDGE_WIFI_INFO_PAGE_HINT" xml:space="preserve">
+    <value>Tap on the password to copy it to the clipboard. Afterwards you can paste it as password for "ISB...".</value>
+  </data>
+  <data name="WIFI_PAGE_LOGIN_UNAUTHORIZED" xml:space="preserve">
+    <value>Login not possible. Check  password (case sensitive). Contact support if problem remains.</value>
+  </data>
+  <data name="DELETE_ALL_APPLIANCE_FILES_ALERT_TEXT" xml:space="preserve">
+    <value>Clicking "Yes" will delete all appliance files on your device. Do you want to proceed?</value>
+  </data>
+  <data name="METADATA_DOWNLOAD_FIRST_TIME_PERMISSION_TEXT" xml:space="preserve">
+    <value>In order to use iService5 you must download the latest appliance list (100 MB).</value>
+  </data>
+  <data name="INTERNET_ERROR_TEXT" xml:space="preserve">
+    <value>Your internet connection may not be sufficient. Please try again.</value>
+  </data>
+  <data name="FUNCTION_USED_ON" xml:space="preserve">
+    <value>Function used on</value>
+  </data>
+  <data name="APPLIANCE_FLASH_TO" xml:space="preserve">
+    <value>to</value>
+  </data>
+  <data name="CONN_PAGE_CODING_DISABLED_NO_VARCODE_ENTRY" xml:space="preserve">
+    <value>Coding disabled. No var code entry.</value>
+  </data>
+  <data name="SMM_APPLIANCE_IS_REBOOTING_TO_RECOVERY" xml:space="preserve">
+    <value>Appliance reboots to Recovery System. Please wait.</value>
+  </data>
+  <data name="COUNTRY_RELEVANT_TEXT" xml:space="preserve">
+    <value>Country-relevant (recommended)</value>
+  </data>
+  <data name="LOCAION_PERMISSION_RATIONALE" xml:space="preserve">
+    <value>Please go to iService5 app settings and allow access to location services.</value>
+  </data>
+  <data name="AVAILABLE_TEXT" xml:space="preserve">
+    <value>Available</value>
+  </data>
+  <data name="ERROR_SET_HA_VIB" xml:space="preserve">
+    <value>Failed to Set VIB</value>
+  </data>
+  <data name="APPLIANCE_FLASH_FILES_FW_FILE" xml:space="preserve">
+    <value>Firmware file</value>
+  </data>
+  <data name="APPLIANCE_FLASH_FAILED_TO_SET" xml:space="preserve">
+    <value>Failed setting: {0} to {1}</value>
+  </data>
+  <data name="CONN_PAGE_MONITORING_DISABLED_MISSING_TOPOGRAM" xml:space="preserve">
+    <value>Monitoring disabled. Files are missing.</value>
+  </data>
+  <data name="CANCEL_LABEL" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="PROGRAM_TEXT" xml:space="preserve">
+    <value>Program</value>
+  </data>
+  <data name="BOOT_MODE_TRANSITION_PLEASE_WAIT" xml:space="preserve">
+    <value>Please Wait.</value>
+  </data>
+  <data name="REPAIR_PAGE_DOWNLOAD" xml:space="preserve">
+    <value />
+  </data>
+  <data name="APPLIANCE_FLASH_CODING_AFTER_FLASH_EXCEPTION" xml:space="preserve">
+    <value>Continuing on to coding was not possible.</value>
+  </data>
+  <data name="WARNING_TITLE" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="SMM_LOG_BUTTON" xml:space="preserve">
+    <value>Error Log</value>
+  </data>
+  <data name="HOME_CONNECT_HEADER" xml:space="preserve">
+    <value>Home Connect Coding</value>
+  </data>
+  <data name="CONN_PAGE_GOTO" xml:space="preserve">
+    <value>Go to </value>
+  </data>
+  <data name="ENUMBER_MISMATCH_PROGRAMMING_DISABLED" xml:space="preserve">
+    <value>Programming not possible, as there is a E-Number mismatch.</value>
+  </data>
+  <data name="APPLIANCE_FLASH_DELETE_NOT_YET" xml:space="preserve">
+    <value>Deleting was not successful.</value>
+  </data>
+  <data name="SERVER_CERTIFICATE_UNSECURE_CONNECTION" xml:space="preserve">
+    <value>Your backend-connection seems to be unsecure. Try to work offline and contact your support.</value>
+  </data>
+  <data name="ST_PAGE_DWL_REMOTE_FILES" xml:space="preserve">
+    <value>Appliance Files to be downloaded:</value>
+  </data>
+  <data name="BRIDGE_SETTINGS_BACK_ALERT_MESSAGE" xml:space="preserve">
+    <value>By navigating away from this screen you will lose any unsaved settings. Are you sure you wish to continue?</value>
+  </data>
+  <data name="CONN_PAGE_CONTROL_DISABLED_TOPOGRAM_NOT_FOUND" xml:space="preserve">
+    <value>Control disabled. Topograms are not found.</value>
+  </data>
+  <data name="APPLIANCE_FLASH_QUERY_SOME_NEW" xml:space="preserve">
+    <value>New firmware is available for some modules.</value>
+  </data>
+  <data name="LOG_SESSION_DOWNLOADED" xml:space="preserve">
+    <value>Re-Download</value>
+  </data>
+  <data name="SMM_CONN_DEVICE_COULD_NOT_SECURED" xml:space="preserve">
+    <value>Device could not be secured</value>
+  </data>
+  <data name="PROGRAM_ONLY_NEW_TEXT" xml:space="preserve">
+    <value>Program only new</value>
+  </data>
+  <data name="ERROR_SET_HA_DEVICE_TYPE" xml:space="preserve">
+    <value>Failed to Set Device Type</value>
+  </data>
+  <data name="FLASHING_TRANSITION_FROM_CODING" xml:space="preserve">
+    <value>Coding was successful. Flashing was requested. Waiting for Flashing state to initialise.</value>
+  </data>
+  <data name="DATA_SETUP_TEXT" xml:space="preserve">
+    <value>Please wait until data setup is finished...</value>
+  </data>
+  <data name="APPLIANCE_FLASH_CODING_FAILED_ACTIVATION" xml:space="preserve">
+    <value>Coding failed to activate.</value>
+  </data>
+  <data name="CAT_SETTINGS_NOT_SAVED_SUCCESSFULLY_TEXT" xml:space="preserve">
+    <value>CAT settings couldn't be saved!</value>
+  </data>
+  <data name="INAPPBROWSER_BRIDGE_SETTING_TEXT" xml:space="preserve">
+    <value>Bridge Settings</value>
+  </data>
+  <data name="NO_ERROR_LOG_TO_DISPLAY" xml:space="preserve">
+    <value>No error codes available</value>
+  </data>
+  <data name="BOOT_MODE_SET_RECOVERY_FAILED" xml:space="preserve">
+    <value>Setting Recovery System failed</value>
+  </data>
+  <data name="WIFI_INFO_PAGE_LABEL" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="REPAIR_PAGE_FILES2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="APPLIANCE_INSTALL_REPAIR_FAILED" xml:space="preserve">
+    <value>Failed to execute install-repair</value>
+  </data>
+  <data name="FINISHED_TEXT_CODING" xml:space="preserve">
+    <value>Next step Coding</value>
+  </data>
+  <data name="WARNING_TEXT" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="HOME_PAGE_HEADER" xml:space="preserve">
+    <value>Welcome to iService5</value>
+  </data>
+  <data name="SERVER_TRUST_FAILURE" xml:space="preserve">
+    <value>Server certificate validation failed.</value>
+  </data>
+  <data name="REPAIR_PAGE_DOWNLOAD_FILES_PROGRESS" xml:space="preserve">
+    <value>Downloading {0} of {1} files…</value>
+  </data>
+  <data name="PLEASE_CHOOSE_DOWNLOAD_SETTINGS_TEXT" xml:space="preserve">
+    <value>Please choose a download option</value>
+  </data>
+  <data name="APPLIANCE_FLASH_PROGRESS" xml:space="preserve">
+    <value>Program progress</value>
+  </data>
+  <data name="REPORT_PROBLEM_COMMUNICATION_ERROR" xml:space="preserve">
+    <value>Communication problem with the server. Feedback could not be sent. Please try again later or contact your support.</value>
+  </data>
+  <data name="CONN_PAGE_CONTROL_DISABLED_MISSING_FILES" xml:space="preserve">
+    <value>Control disabled. Files are missing.</value>
+  </data>
+  <data name="APPLIANCE_FLASH_ID_LABEL" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="FEEDBACK_PAGE_NOTE_LABEL" xml:space="preserve">
+    <value>Problem description</value>
+  </data>
+  <data name="SAVE_GRAPH_ALERT_MESSAGE" xml:space="preserve">
+    <value>Graph was succesfully saved to the gallery.</value>
+  </data>
+  <data name="ST_PAGE_DWL_REQ" xml:space="preserve">
+    <value>Appliance files update is required</value>
+  </data>
+  <data name="ST_PAGE_DWL_ALL" xml:space="preserve">
+    <value>Download All</value>
+  </data>
+  <data name="ST_PAGE_DWL_NOW" xml:space="preserve">
+    <value>Download</value>
+  </data>
+  <data name="SMM_CONN_DEVICE_IS_SECURED" xml:space="preserve">
+    <value>Device is secured</value>
+  </data>
+  <data name="ST_PAGE_FILES" xml:space="preserve">
+    <value>files</value>
+  </data>
+  <data name="APPLIANCE_FLASH_FIRMWARE_LABEL" xml:space="preserve">
+    <value>Firmware</value>
+  </data>
+  <data name="ST_PAGE_NEVER" xml:space="preserve">
+    <value>Never</value>
+  </data>
+  <data name="REPAIR_PAGE_DOWNLOAD_BUTTON" xml:space="preserve">
+    <value>Download {0} files</value>
+  </data>
+  <data name="LOGIN_PAGE_NEED_ACCOUNT_BUTTON" xml:space="preserve">
+    <value>Need an account?</value>
+  </data>
+  <data name="APPLIANCE_FLASH_CONNECTED" xml:space="preserve">
+    <value>Connected</value>
+  </data>
+  <data name="SMM_CONN_DEVICE_REBOOT_FAILED" xml:space="preserve">
+    <value>Reboot failed.</value>
+  </data>
+  <data name="SMM_CONN_DEVICE_HAS_BEEN_SECURED" xml:space="preserve">
+    <value>Device has been secured</value>
+  </data>
+  <data name="TEST_TIMEOUT_LABEL" xml:space="preserve">
+    <value>Test Timeout (seconds)</value>
+  </data>
+  <data name="BRIDGE_SETTINGS_SAVED_SUCCESSFULLY_TEXT" xml:space="preserve">
+    <value>Bridge settings saved successfully</value>
+  </data>
+  <data name="HISTORY_DETAILS_HEADER_FLASH_LOG" xml:space="preserve">
+    <value>Flash</value>
+  </data>
+  <data name="APPLIANCE_ECU_TASK_RESULT_SUCCESS" xml:space="preserve">
+    <value>Ecuprogramming Successful task </value>
+  </data>
+  <data name="FEEDBACK_PAGE_ATTACHMENT_LABEL_NONE" xml:space="preserve">
+    <value>No Logfile present</value>
+  </data>
+  <data name="HISTORY_DETAILS_HEADER_MEASURE_LOG" xml:space="preserve">
+    <value>Measure</value>
+  </data>
+  <data name="WIFI_PAGE_LOGIN_PROMPT" xml:space="preserve">
+    <value>Authentication for WiFi credentials</value>
+  </data>
+  <data name="MEASURE_DIAGRAM_X_AXIS" xml:space="preserve">
+    <value>Time in seconds</value>
+  </data>
+  <data name="APPLIANCE_FLASH_CONNECTION_LOST" xml:space="preserve">
+    <value>Connection to home appliance lost. Please re-connect and program again.</value>
+  </data>
+  <data name="REFRESH_CERTIFICATE_TEXT" xml:space="preserve">
+    <value>Refresh Certificate</value>
+  </data>
+  <data name="COUNTRY_SELECTED" xml:space="preserve">
+    <value>Countries selected :</value>
+  </data>
+  <data name="MEASURE_CAT_RESET_TITLE" xml:space="preserve">
+    <value>CAT Reset</value>
+  </data>
+  <data name="LEGAL_INFO_HEADER" xml:space="preserve">
+    <value>Legal Information</value>
+  </data>
+  <data name="ST_PAGE_DOWNLOADING" xml:space="preserve">
+    <value>Downloading</value>
+  </data>
+  <data name="LOCATION_ENABLE_ALERT_TITLE" xml:space="preserve">
+    <value>Location services are disabled</value>
+  </data>
+  <data name="BRIDGE_SETTINGS_NOT_SAVED_SUCCESSFULLY_TEXT" xml:space="preserve">
+    <value>Bridge settings couldn't be saved!</value>
+  </data>
+  <data name="APPLIANCE_FLASH_QUERY_FLASH_DATA_SUPPLY_PROBLEM" xml:space="preserve">
+    <value>Programming not possible. Data supply problem for selected E-Number. (Do Data update and retry. Then send an eFSB / contact support.)
+</value>
+  </data>
+  <data name="PREPARE_YOUR_WORK_TITLE" xml:space="preserve">
+    <value>Prepare your work</value>
+  </data>
+  <data name="HOME_PAGE_BUTTON" xml:space="preserve">
+    <value>Go</value>
+  </data>
+  <data name="WARNING_CONFIRM" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+  <data name="WIFI_PAGE_AUTH_BUTTON" xml:space="preserve">
+    <value>Authenticate</value>
+  </data>
+  <data name="PREPARE_WORK_ADD_BUTTON" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="SMM_CONN_DEVICE_CONNECTED" xml:space="preserve">
+    <value>Connected</value>
+  </data>
+  <data name="BRIDGE_SETTINGS_URL_HELP" xml:space="preserve">
+    <value>Value should be a valid URL</value>
+  </data>
+  <data name="IMPRINT_HEADER_6" xml:space="preserve">
+    <value>Trademarks</value>
+  </data>
+  <data name="IMPRINT_HEADER_5" xml:space="preserve">
+    <value>Copyright</value>
+  </data>
+  <data name="IMPRINT_HEADER_4" xml:space="preserve">
+    <value>Company information</value>
+  </data>
+  <data name="IMPRINT_HEADER_3" xml:space="preserve">
+    <value>Contact</value>
+  </data>
+  <data name="IMPRINT_HEADER_2" xml:space="preserve">
+    <value>Represented by the Board of Management</value>
+  </data>
+  <data name="IMPRINT_HEADER_1" xml:space="preserve">
+    <value>Legal notice in accordance with section 5 TMG (German Telemedia Act)</value>
+  </data>
+  <data name="ERROR_TITLE" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="FEEDBACK_PAGE_ACKNOWLEDGEMENT_TEXT" xml:space="preserve">
+    <value>Thank you for sharing your feedback.</value>
+  </data>
+  <data name="DEVICE_CLASS_TEXT" xml:space="preserve">
+    <value>Device Class</value>
+  </data>
+  <data name="APPLIANCE_INSTALL_REPAIR_REPSONSE_ARRIVED" xml:space="preserve">
+    <value>Install repair raw response arrived</value>
+  </data>
+  <data name="CONN_PAGE_CONTROL_DISABLED_DOCUMENT_NOT_AVAILABLE" xml:space="preserve">
+    <value>Control disabled. Document not available for this appliance.</value>
+  </data>
+  <data name="ERROR_PAGE_NOTSUPPORTED" xml:space="preserve">
+    <value>The error log function is not supported by this appliance.</value>
+  </data>
+  <data name="OVERFLOW_TEXT" xml:space="preserve">
+    <value>Overflow</value>
+  </data>
+  <data name="INFORMATION_TITLE" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="CONN_PAGE_LOGGING_DISABLED_SMM_CONN_DEVICE_NOT_COMPLETE" xml:space="preserve">
+    <value> Logging disabled. Communication with appliance is not complete.</value>
+  </data>
+  <data name="IMPRINT_TEXT" xml:space="preserve">
+    <value>Imprint</value>
+  </data>
+  <data name="APPLIANCE_FLASH_LOG_INTRO" xml:space="preserve">
+    <value>Ready for programming. Press Start button.</value>
+  </data>
+  <data name="METADATA_DL_FAIL_TITLE" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="APPLIANCE_ECU_SUCCESS" xml:space="preserve">
+    <value>ECU Firmware installation successfully finished! Some LEDs or the display may now turn on. Ignore this and press OK to continue!</value>
+  </data>
+  <data name="LOGIN_UNAUTHORIZED" xml:space="preserve">
+    <value>Login not possible. Check username and password. Password must be case sensitive. Contact support if problem remains.</value>
+  </data>
+  <data name="CONN_PAGE_MISSING_PPF_FILES" xml:space="preserve">
+    <value>Not all auxiliary files are available. Programming disabled.</value>
+  </data>
+  <data name="BRIDGE_SETTINGS_TITLE" xml:space="preserve">
+    <value>Bridge Settings</value>
+  </data>
+  <data name="PROCEED_BUTTON_LABEL" xml:space="preserve">
+    <value>Proceed</value>
+  </data>
+  <data name="BOOT_MODE_TRANSITION_WIFI_FAILED" xml:space="preserve">
+    <value>Reconnect to WiFi failed</value>
+  </data>
+  <data name="BRIDGELOG_ERROR" xml:space="preserve">
+    <value>Unable to save session BridgeLog.</value>
+  </data>
+  <data name="BOOT_MODE_TRANSITION_APPLIANCE_THIS_MAY_TAKE_FEW_MINUTES" xml:space="preserve">
+    <value>This may take up to few minutes.</value>
+  </data>
+  <data name="CAT_SETTINGS_SAVED_SUCCESSFULLY_TEXT" xml:space="preserve">
+    <value>CAT settings saved successfully</value>
+  </data>
+  <data name="APPLIANCE_FLASH_QUERY_ALL_NEW" xml:space="preserve">
+    <value>New firmware is available for all modules.</value>
+  </data>
+  <data name="BRIDGELOG_SAVED" xml:space="preserve">
+    <value>Session BridgeLog saved.</value>
+  </data>
+  <data name="APPLIANCE_INSTALL_REPAIR_SUCCESS" xml:space="preserve">
+    <value>Successfully executed install-repair</value>
+  </data>
+  <data name="BOOT_MODE_TRANSITION_FURTHER" xml:space="preserve">
+    <value>For further services, you'll have to activate the appliance WiFi again through settings and connect your smart device.</value>
+  </data>
+  <data name="NON_SMM_TEXT" xml:space="preserve">
+    <value>Non-SystemMaster</value>
+  </data>
+  <data name="LoginSuccess" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SMM_CONN_DEVICE_COULD_NOT_SET_BOOTMODE" xml:space="preserve">
+    <value>Could not set bootmode</value>
+  </data>
+  <data name="APPLIANCE_FLASH_SOFTWARE_PACKAGE_NOT_VALID" xml:space="preserve">
+    <value>The following software packages are not valid,programming not possible</value>
+  </data>
+  <data name="MEMORY_PAGE_NOTSUPPORTED" xml:space="preserve">
+    <value>The memory log function is not supported by this appliance.</value>
+  </data>
+  <data name="APPLIANCE_FLASH_OPT_VERSIONS" xml:space="preserve">
+    <value>Optional Versions</value>
+  </data>
+  <data name="YES_TEXT" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="LOGIN_PAGE_AUTO_LOGIN_SWITCH" xml:space="preserve">
+    <value>Auto-login</value>
+  </data>
+  <data name="COUNTRY_ASIA_PACIFIC" xml:space="preserve">
+    <value>Asia Pacific</value>
+  </data>
+  <data name="SMM_CONN_BOOT_MODE" xml:space="preserve">
+    <value>Boot Mode</value>
+  </data>
+  <data name="BRIDGE_SETTINGS_ADVANCED_TOGGLE_TEXT" xml:space="preserve">
+    <value>Show Advanced Options</value>
+  </data>
+  <data name="DELETE_APPLIANCE_FILES" xml:space="preserve">
+    <value>Delete appliance files</value>
+  </data>
+  <data name="FEEDBACK_PAGE_FROM_LABEL" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="ERROR_LOG_NO_LOG" xml:space="preserve">
+    <value>No error log available</value>
+  </data>
+  <data name="SMM_CONN_DEVICE_IS_NOT_SECURED" xml:space="preserve">
+    <value>Device is not secured</value>
+  </data>
+  <data name="NAVIGATE_HOME_BTN_LABEL" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="SMM_CONN_DEVICE_WAITING" xml:space="preserve">
+    <value>waiting</value>
+  </data>
+  <data name="EMPTY_FEEDBACK_ALERT_MESSAGE" xml:space="preserve">
+    <value>Please enter title and/or technician note in order to describe your problem. Afterwards your message will be sent to the iService support.</value>
+  </data>
+  <data name="HISTORY_DETAILS_HEADER_ERROR_LOG" xml:space="preserve">
+    <value>Error Log</value>
+  </data>
+  <data name="FLASH_PAGE_SWITCH_TO_ELP_MSG" xml:space="preserve">
+    <value>Do you want to set the appliance into Normal System?</value>
+  </data>
+  <data name="URL_FAIL_MSG" xml:space="preserve">
+    <value>Unable to open the webpage</value>
+  </data>
+  <data name="OFFLINE_SESSION_WARNING" xml:space="preserve">
+    <value>Please go online to verify that you are a registered iService5 user. Otherwise your database will be deleted in _PLACEHOLDER_ days.</value>
+  </data>
+  <data name="APPLIANCE_INSTALL_REPAIR_REPSONSE_WAIT" xml:space="preserve">
+    <value>Wait for ECU programming</value>
+  </data>
+  <data name="SELECT_DEVICE_CLASS_TEXT" xml:space="preserve">
+    <value>Select Device Class</value>
+  </data>
+  <data name="CONNECTED_DBUS_TEXT" xml:space="preserve">
+    <value>DBus</value>
+  </data>
+  <data name="BRIDGE_SETTINGS_HEX_HELP" xml:space="preserve">
+    <value>Enter a valid hexadecimal number starting with 0x and maximum value {0}</value>
+  </data>
+  <data name="CODING_ERROR" xml:space="preserve">
+    <value>Coding error</value>
+  </data>
+  <data name="NO_METADATA" xml:space="preserve">
+    <value>No appliance list available. Please trigger download.</value>
+  </data>
+  <data name="ERROR_LOG_LABEL" xml:space="preserve">
+    <value>Error Log</value>
+  </data>
+  <data name="TOTAL_FILE_SIZE_TEXT" xml:space="preserve">
+    <value>Total size of files:</value>
+  </data>
+  <data name="COUNTRY_RELEVANT_DESCRIPTION_TEXT" xml:space="preserve">
+    <value>This option will download the E-Numbers recently repaired in your country.</value>
+  </data>
+  <data name="BOOT_MODE_TRANSITION_APPLIANCE_THIS_MAY_TAKE" xml:space="preserve">
+    <value>This may take up to 50 seconds.</value>
+  </data>
+  <data name="CONN_PAGE_CONTROL_DISABLED_TOPOGRAM_NOT_AVAILABLE" xml:space="preserve">
+    <value>Control disabled. Topograms are not avaialable for this appliance.</value>
+  </data>
+  <data name="BRIDGE_SETTINGS_BACK_ALERT_TITLE" xml:space="preserve">
+    <value>You have unsaved settings</value>
+  </data>
+  <data name="BRIDGE_SETTINGS_NUMBER_HELP" xml:space="preserve">
+    <value>Value should be numeric</value>
+  </data>
+  <data name="APPLIANCE_INSTRUCTIONS_CONNECTED" xml:space="preserve">
+    <value>Connected</value>
+  </data>
+  <data name="STORAGE_STATUS" xml:space="preserve">
+    <value>Storage Status</value>
+  </data>
+  <data name="BRIDGE_UPGRADE_INSTRUCTION_5" xml:space="preserve">
+    <value>Click submit.</value>
+  </data>
+  <data name="BRIDGE_UPGRADE_INSTRUCTION_4" xml:space="preserve">
+    <value>Tickmark Active.</value>
+  </data>
+  <data name="BRIDGE_UPGRADE_INSTRUCTION_6" xml:space="preserve">
+    <value>Use buttons on real Wifi Bridge to start upgrade.</value>
+  </data>
+  <data name="BRIDGE_UPGRADE_INSTRUCTION_1" xml:space="preserve">
+    <value>Select Wi-Fi Tab.</value>
+  </data>
+  <data name="BRIDGE_UPGRADE_INSTRUCTION_3" xml:space="preserve">
+    <value>Enter the password of the router.</value>
+  </data>
+  <data name="BRIDGE_UPGRADE_INSTRUCTION_2" xml:space="preserve">
+    <value>Select an SSID with internet access.</value>
+  </data>
+  <data name="SAVE_GRAPH_PERMISSION_DENIED_ALERT_MESSAGE" xml:space="preserve">
+    <value>Permission to save graph in the gallery was denied.</value>
+  </data>
+  <data name="RETRIEVING_CERTIFICATE_NOT_SUCCESSFUL_TEXT" xml:space="preserve">
+    <value>Certificate couldn't be retrieved successfully.</value>
+  </data>
+  <data name="FLASH_SUB_TEXT" xml:space="preserve">
+    <value>Download data to start Flashing </value>
+  </data>
+  <data name="NOT_INSTALLED_TEXT" xml:space="preserve">
+    <value>Not installed</value>
+  </data>
+  <data name="CONN_PAGE_LOGGING_DISABLED_CONN_PAGE_NOTSMM" xml:space="preserve">
+    <value> Logging disabled. This is not a SystemMaster appliance with WiFi.</value>
+  </data>
+  <data name="ST_PAGE_DWL_NO_FILES" xml:space="preserve">
+    <value>Appliance files will be downloaded</value>
+  </data>
+  <data name="LOCATION_ENABLE_ALERT_MSG" xml:space="preserve">
+    <value>Location Services have to be turned on in order to connect to the home appliance.</value>
+  </data>
+  <data name="SAVE_GRAPH_ALERT_TITLE" xml:space="preserve">
+    <value>Graph Save</value>
+  </data>
+  <data name="TOUCH_OK_TEXT" xml:space="preserve">
+    <value>No Light</value>
+  </data>
+  <data name="PREPARE_RE_DOWNLOAD_INSTRUCTIONS" xml:space="preserve">
+    <value>This should only be used as a workaround process to replace already downloaded appliance files and PPFs.</value>
+  </data>
+  <data name="INSTALLED_TEXT" xml:space="preserve">
+    <value>Installed</value>
+  </data>
+  <data name="UPGRADE_TESTER_FIRMWARE" xml:space="preserve">
+    <value>Upgrade Tester Firmware</value>
+  </data>
+  <data name="INSTALLED_UNKNOWN_TEXT" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
+  <data name="REPAIR_PAGE_DOWNLOADING" xml:space="preserve">
+    <value />
+  </data>
+  <data name="APPLIANCE_FLASH_BOOT_MODE_SET" xml:space="preserve">
+    <value>Boot mode set to</value>
+  </data>
+  <data name="TOUCH_FAIL_TEXT" xml:space="preserve">
+    <value>Red Light Blinks</value>
+  </data>
+  <data name="APPLIANCE_FLASH_STEP" xml:space="preserve">
+    <value>Step {0} of {1}</value>
+  </data>
+  <data name="APPLIANCE_FLASH_INFO" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="ST_PAGE_DWL_BS_HOURS" xml:space="preserve">
+    <value>No automatic downloads during this time</value>
+  </data>
+  <data name="APPLIANCE_FLASH_MODE_SWITCH_BUTTON" xml:space="preserve">
+    <value>Mode Switch</value>
+  </data>
+  <data name="APPLIANCE_FLASH_DONE" xml:space="preserve">
+    <value>done</value>
+  </data>
+  <data name="BRIDGE_HEADER" xml:space="preserve">
+    <value>iService Bridge</value>
+  </data>
+  <data name="CALLIBRATION_MANUALLY" xml:space="preserve">
+    <value>Manually</value>
+  </data>
+  <data name="COMPACT_APPLIANCE_TESTER_TITLE" xml:space="preserve">
+    <value>CAT Settings</value>
+  </data>
+  <data name="SMM_CONN_INITIATING" xml:space="preserve">
+    <value>Initiating Boot mode change</value>
+  </data>
+  <data name="ST_PAGE_FAILED_DB" xml:space="preserve">
+    <value>Appliance files not up to date.</value>
+  </data>
+  <data name="STORED_SPAU" xml:space="preserve">
+    <value>Stored SPAU</value>
+  </data>
+  <data name="BRIDGE_SETTINGS_EMPTY_HELP" xml:space="preserve">
+    <value>Value should not be empty</value>
+  </data>
+  <data name="APPLIANCE_FLASH_DISCONNECTED" xml:space="preserve">
+    <value>Disconnected</value>
+  </data>
+  <data name="DATA_PRIVACY_POLICY_HEADER_4" xml:space="preserve">
+    <value>4. Error reports</value>
+  </data>
+  <data name="DATA_PRIVACY_POLICY_HEADER_5" xml:space="preserve">
+    <value>5. Data security</value>
+  </data>
+  <data name="DATA_PRIVACY_POLICY_HEADER_6" xml:space="preserve">
+    <value>6. Changes to the data protection information</value>
+  </data>
+  <data name="DATA_PRIVACY_POLICY_HEADER_7" xml:space="preserve">
+    <value>7. Rights and contact information</value>
+  </data>
+  <data name="DATA_PRIVACY_POLICY_HEADER_1" xml:space="preserve">
+    <value>1. Types of personal data</value>
+  </data>
+  <data name="DATA_PRIVACY_POLICY_HEADER_2" xml:space="preserve">
+    <value>2. Purpose of use</value>
+  </data>
+  <data name="DATA_PRIVACY_POLICY_HEADER_3" xml:space="preserve">
+    <value>3. Transmission or disclosure of your data e.g. to third parties</value>
+  </data>
+  <data name="WEBSOCKET_CONN_NOT_INITIALIZED" xml:space="preserve">
+    <value>Web Socket couldn't be initalized succesfully</value>
+  </data>
+  <data name="Go_TO_WIFI_BRIDGE_SETTINGS" xml:space="preserve">
+    <value>Go to bridge web interface</value>
+  </data>
+  <data name="FEEDBACK_PAGE_ERROR_TEXT" xml:space="preserve">
+    <value>There occured a problem while sending the feedback form.</value>
+  </data>
+  <data name="NONSMM_MEMORY_LOG_MSGV_LABEL" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="INITIALISING_SERVICES" xml:space="preserve">
+    <value>App initializing...</value>
+  </data>
+  <data name="APPLIANCE_FLASH_WAITING" xml:space="preserve">
+    <value>Waiting ...</value>
+  </data>
+  <data name="ERROR_IN_CODING_MESSAGE" xml:space="preserve">
+    <value>Error occured by Coding fields initialisation, please contact support.</value>
+  </data>
+  <data name="DOWNLOAD_SETTINGS_LABEL_TEXT" xml:space="preserve">
+    <value>Download Settings</value>
+  </data>
+  <data name="BOOT_MODE_TRANSITION_APPLIANCE_ADDITIONAL_REBOOTING_PART_2" xml:space="preserve">
+    <value>After reconnection, programming of other modules will start automatically.</value>
+  </data>
+  <data name="APPLIANCE_ECU_TASK_RESULT_FAIL" xml:space="preserve">
+    <value>Ecuprogramming Failed task </value>
+  </data>
+  <data name="APPLIANCE_FLASH_QUERY_FLASH_ALL" xml:space="preserve">
+    <value>Program all</value>
+  </data>
+  <data name="CONTROL_START_FAILED" xml:space="preserve">
+    <value>Control failed to start.</value>
+  </data>
+  <data name="CONN_PAGE_INITIALISING_UI" xml:space="preserve">
+    <value>Checking for functionalities availability…</value>
+  </data>
+  <data name="FEEDBACK_PAGE_SENT" xml:space="preserve">
+    <value>Your queued feedback has sent sucessfully.</value>
+  </data>
+  <data name="FLASH_PAGE_POPUPSTRING" xml:space="preserve">
+    <value>Do you want to set the appliance into Recovery System?</value>
+  </data>
+  <data name="STATUS_PAGE_CHECKING_METADATA" xml:space="preserve">
+    <value>Checking for available appliance list update…</value>
+  </data>
+  <data name="SMM_CONN_E_NUMBER" xml:space="preserve">
+    <value>E-Number</value>
+  </data>
+  <data name="DATA_PRIVACY_POLICY_DATA_3" xml:space="preserve">
+    <value>We work together with various service providers to create and run the App and provide the respective services. To the extent that we have bound these service providers to process data in line with strict instructions in their capacity as data processors on our behalf, any data processing activities undertaken by such providers shall not require your consent. 
+
+The service providers we have commissioned to create and run the App:
+    
+•   Service providers for hosting services
+    
+•   Service providers for programming services
+    
+•   Service providers for hotline services and other App services
+
+We only transmit your data to other recipients where necessary to fulfil a contract with you or between you and the third party, where we or the recipient has a legitimate interest in the disclosure of your data, or where you have given your consent to that transmission. These recipients include service providers and other companies within our corporate group. Furthermore, data may be transmitted to other recipients in the event that we are obliged to do so due to legal provisions or enforceable administrative or court orders.
+
+Other recipients of your data are especially such service providers whose offers and services (third-party services) can be used in connection with the App or where the App enables access to such services.
+
+Content, especially recipes, which you have created yourself, may also be transmitted to other BSH companies (also internationally) within the scope of technical processing and provision of the content/services. We base such transmission/processing on data protection agreements between the BSH companies involved, which also include the application of standard contractual clauses, insofar as the transmission includes a country outside the scope of the GDPR and if it’s not a case of Art. 45 GDPR.
+    </value>
+  </data>
+  <data name="DATA_PRIVACY_POLICY_DATA_2" xml:space="preserve">
+    <value>We use the above-mentioned category of data
+            
+•   to provide App features as well as the services offered via the App,
+           
+•   for maintenance purposes, including the provision of related in-app/email messages (e.g. recommendations on the use of settings and/or maintenance programs) and reactive troubleshooting (e.g. in the context of remote diagnosis, during on-site repair),
+           
+•   to improve the App's user friendliness and for specific or general troubleshooting of the App and the digital services offered through it.
+         </value>
+  </data>
+  <data name="DATA_PRIVACY_POLICY_DATA_1" xml:space="preserve">
+    <value>In terms of App usage, BSH collects, processes and uses the following categories of personal data.
+            
+a.  User data and usage data
+    
+We collect and use the following personal data regarding to you as user when setting up a user account (registration) as well as when setting up the App: 
+            
+•   When registering with login credentials submitted to you the relevant BSH affiliate or Service partner, we will store and process those credentials, which will identify you as user, authorized to use the App.
+    
+•   Additional details that you may provide .The details requested as part of the App usage may differ from country to country and are managed (if available) via BSH centrally.
+    
+•   Information which we collect and store during the registration process and/or while using the App:
+‒   Device Platform, Device model, Device manufacturer, OS Version, Device Time Zone, Language, Memory utilization of your mobile device (at installation, in log-file),
+‒   iService App Version, Storage utilization, last update of metadata database (in log-file),
+‒   status of the user account (active, inactive – at logon),
+‒   crash reports of the App (automatic transmission in case of a crash)
+‒   logging of communication with backend (in log-file)
+            
+If the information described above is stored in a log-file, this information only is transmitted based on an additional user interaction (e.g. “send log-file)
+
+b.  Customer (Appliance) Data
+
+In operating the App, there will be also Customer (Appliance) Data be loaded in the App or visible via the App. This Customer (Appliance) Data is also protected by Data Protection Laws and to be handled confidential and in a data protection compliant way only. If you have any questions in regard to Data Protection in regard to those data, please contact your BSH affiliate or Service Partner you work for.
+      </value>
+  </data>
+  <data name="DATA_PRIVACY_POLICY_DATA_7" xml:space="preserve">
+    <value>a. Legal bases for intended data uses
+            
+We base the following data uses on
+            
+•  the performance of a contract according article 6(1b) GDPR:
+‒  Provision of App features as well as the services offered via the App by processing the data categories 
+‒  Bug fixing 
+
+b. Your rights
+            
+Your rights based on GDPR are outlined below. To exercise your rights, please use the contact information provided at the end of this data protection information.
+
+•  Your right to information about your data: We will provide you with information about the data we hold about you on request. 
+    
+•  Your right to correct and complete your data: We will correct inaccurate information about you if you notify us accordingly. We will complete incomplete data if you notify us accordingly, provided this data is necessary for the intended purpose of processing your data.
+    
+•  Your right to delete your data: We will delete the information we hold about you on request. However, some data will only be deleted subject to a defined period of retention, for example because we are required to retain the data by law in some cases, or because we require the data to fulfil our contractual obligations to you. Please see also item 11.
+    
+•  Your right to have your data blocked: In certain legally determined cases, we will block your data if you would like us to do so. Blocked data is only further processed to a very limited extent. 
+    
+•  Your right to withdraw consent: You can withdraw consent given for your data to be processed with effect for the future at any time. The legality of processing your data remains unaffected by this up to the point at which your consent is withdrawn. Please see also item 11.
+    
+•  Your right to object to the processing of your data: You can object to the processing of your data with effect for the future at any time, if we are processing your data on the basis of one of the legal justifications set out in article 6(1e or 1f) GDPR. In the event that you object we will cease processing your data, provided that there are no compelling and legitimate grounds for further processing. The processing of your data for the purposes of direct marketing never constitutes compelling and legitimate grounds for us.
+    
+•  Your right to data portability: At your request, we can make certain information available to you in a structured, commonly used and machine-readable format. 
+    
+•  Your right to appeal to a regulatory authority: You can lodge an appeal pertaining to data protection with a data protection authority. To do so, contact the data protection authority responsible for your place of residence or the data protection authority under whose jurisdiction we fall (named below). 
+
+Bavarian Data Protection Authority (BayLDA), www.baylda.de.
+
+c. Transmission to recipients outside the EEA
+
+If necessary, for the provision of App features as well as the services offered via the App, we also transmit personal data to recipients based outside of the EEA, in so-called third countries. In this case, we ensure ‒ before any data is shared ‒ that either an appropriate level of data protection is maintained by the recipient (e.g. on the basis of an adequacy decision made by the EU Commission for the respective country or the agreement of standard EU contractual clauses between the European Union and the recipient) or that you have given your consent to said sharing.
+
+We are happy to provide you with an overview of the recipients in third countries and a copy of the specific provisions agreed to ensure an appropriate level of data protection. To request this, please use the contact information provided at the end of this data protection information.
+
+Please see item 9 for transmission of personal data by usage of third-party services.
+
+d. Contact details of the data protection officer
+
+If you have any questions relating to data protection or exercising your rights, you can use the following contact information to get in touch with our data protection officer directly:
+
+BSH Hausgeräte GmbH
+Data Protection Officer
+Carl-Wery-Str. 34
+81739 Munich, Germany
+
+Data-Protection@bshg.com
+
+Date of issue: December 2020
+        </value>
+  </data>
+  <data name="DATA_PRIVACY_POLICY_DATA_6" xml:space="preserve">
+    <value>As the App and the services provided via the App continues to undergo development – among other things, through the implementation of new technologies or the introduction of new services – this data protection information may need to be adjusted accordingly. iService5 shall reserve the right to amend or supplement this information as required. iService5 will always update the data protection information in the App; you can therefore familiarise yourself with the latest version at any time.
+</value>
+  </data>
+  <data name="DATA_PRIVACY_POLICY_DATA_5" xml:space="preserve">
+    <value>We deploy technical and organisational measures to protect your data, for example, from manipulation, loss and unauthorised third-party access. These measures include the use of encoding technologies, certificates, firewalls on the servers and password protection in the App. We are constantly reviewing and improving our security measures in accordance with technological advancement.
+</value>
+  </data>
+  <data name="DATA_PRIVACY_POLICY_DATA_4" xml:space="preserve">
+    <value>We use Visual Studio App Center (https://appcenter.ms) to collect and send anonymous error reports if the App behaves in an unexpected way, especially if the App crashes. 
+</value>
+  </data>
+  <data name="CALLIBRATION_EVERY_TIME" xml:space="preserve">
+    <value>Every time</value>
+  </data>
+  <data name="REPAIR_PAGE_FILES" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NUMBER_OF_FILES_TO_BE_DOWNLOADED_TEXT" xml:space="preserve">
+    <value>Number of files to be downloaded:</value>
+  </data>
+  <data name="BRIDGE_UPGRADE_INSTRUCTION_HEADER" xml:space="preserve">
+    <value>Please follow these instructions after you entered the web interface.</value>
+  </data>
+  <data name="SELECTED_FOR_DOWNLOAD_TEXT" xml:space="preserve">
+    <value>Selected for download</value>
+  </data>
+  <data name="ERROR_DETAIL_ADVICE_LABEL" xml:space="preserve">
+    <value>Advice</value>
+  </data>
+  <data name="APPLIANCE_FLASH_CHANNGING_BOOT_MODE" xml:space="preserve">
+    <value>Changing boot mode</value>
+  </data>
+  <data name="APPLIANCE_FLASH_QUERY_FLASH_ALL_AGAIN" xml:space="preserve">
+    <value>Program all again</value>
+  </data>
+  <data name="SMM_CONN_VIB" xml:space="preserve">
+    <value>VIB</value>
+  </data>
+  <data name="OPTION_TEXT" xml:space="preserve">
+    <value>Option</value>
+  </data>
+  <data name="PPF_FILES_MISSING" xml:space="preserve">
+    <value>Auxiliary files missing.</value>
+  </data>
+  <data name="ST_PAGE_DWL_STATUS" xml:space="preserve">
+    <value>Appliance Files Status</value>
+  </data>
+  <data name="APPLIANCE_FLASH_DATA_SUPPLY_UPD_DB" xml:space="preserve">
+    <value>Data supply outdated. Update your database. Programming skipped.</value>
+  </data>
+  <data name="FLASH" xml:space="preserve">
+    <value>Flash </value>
+  </data>
+  <data name="ERROR_SET_HA_TIMESTAMP" xml:space="preserve">
+    <value>Failed to Set Manufacturing TimeStamp</value>
+  </data>
+  <data name="APPLIANCE_FLASH_SUCCESSFULLY_SET" xml:space="preserve">
+    <value>Successfully set: {0} to {1}</value>
+  </data>
+  <data name="APPLIANCE_FLASH_EXTRACTING" xml:space="preserve">
+    <value>Extracting</value>
+  </data>
+  <data name="NO_MODULES_FOUND_IN_DB" xml:space="preserve">
+    <value>There are no modules found in DB.</value>
+  </data>
+  <data name="APPLIANCE_FW_INFO" xml:space="preserve">
+    <value>No info about installed firmware</value>
+  </data>
+  <data name="REINSTALLED_TEXT" xml:space="preserve">
+    <value>Reinstalled</value>
+  </data>
+  <data name="APPLIANCE_FLASH_LOG" xml:space="preserve">
+    <value>Program log</value>
+  </data>
+  <data name="APPLIANCE_FLASH_ALL" xml:space="preserve">
+    <value>Program all</value>
+  </data>
+  <data name="APPLIANCE_FLASH_NEW" xml:space="preserve">
+    <value>Program only new</value>
+  </data>
+  <data name="RETRIEVING_CERTIFICATE_SUCCESSFUL_TEXT" xml:space="preserve">
+    <value>Certificate retrieved successfully.</value>
+  </data>
+  <data name="CONNECTED_BRIDGE_TEXT" xml:space="preserve">
+    <value>WiFi Bridge</value>
+  </data>
+  <data name="SYMANA_WEBSOCKET_CONNECTION_INTERRUPTED" xml:space="preserve">
+    <value>Websocket Connection Interrupted.</value>
+  </data>
+  <data name="SSH_COMMAND_ERROR_IOS_14" xml:space="preserve">
+    <value>Connection to bridge not possible. Your iService bridge might not be in iService5 mode and/or local networks usage permission is denied. Please go to iService4 administrator console and activate bridge and/or give local networks usage permission.</value>
+  </data>
+  <data name="CALLIBRATION_ONCE_A_DAY" xml:space="preserve">
+    <value>Once a day</value>
+  </data>
+  <data name="APPLIANCE_FLASH_NO_FW_VERSIONS_TO_UPGRADE" xml:space="preserve">
+    <value>No Firmware versions to upgrade</value>
+  </data>
+  <data name="SERVER_CERTIFICATE_EXPIRED" xml:space="preserve">
+    <value>A certificate has expired. You can proceed using iService5. We will launch a new iService5 version soon to fix this issue.</value>
+  </data>
+  <data name="MSG_FLASHING_ERROR_TIMEOUT" xml:space="preserve">
+    <value>Flashing was not successful. The operation has timed out.</value>
+  </data>
+  <data name="DOWNLOAD_LOG_TEXT" xml:space="preserve">
+    <value>Download Log</value>
+  </data>
+  <data name="SKIP_UPDATE" xml:space="preserve">
+    <value>Skip Updating</value>
+  </data>
+  <data name="CONN_PAGE_NOTSMM" xml:space="preserve">
+    <value>This is not a SystemMaster appliance with WiFi. Programming disabled.</value>
+  </data>
+  <data name="SMM_CONN_CUST_INDEX" xml:space="preserve">
+    <value>KI</value>
+  </data>
+  <data name="PPF_REFETCH_IN_SETTINGS_TEXT" xml:space="preserve">
+    <value>Clicking Refetch PPFs deletes all PPF's on your device.</value>
+  </data>
+  <data name="REPAIR_PAGE_CHECKING_APPL_DATA" xml:space="preserve">
+    <value>Checking appliance files</value>
+  </data>
+  <data name="FINISHED_TEXT" xml:space="preserve">
+    <value>Finished</value>
+  </data>
+  <data name="ERROR_LOG_TS_LABEL" xml:space="preserve">
+    <value>Timestamp</value>
+  </data>
+  <data name="PROGRAMMING_RETURN_FROM_UPTODATE_POPUP" xml:space="preserve">
+    <value>Programming cancelled as return is selected in popup.
+</value>
+  </data>
+  <data name="TAB_TITLE_HISTORY" xml:space="preserve">
+    <value>History</value>
+  </data>
+  <data name="SMM_CONN_DEVICE_REQUESTED_REBOOT" xml:space="preserve">
+    <value>Reboot requested</value>
+  </data>
+  <data name="FIRMWARE_DL_NOT_FOUND_MSG" xml:space="preserve">
+    <value>Download process is successfully finished but the files that remained were not found on the server. Please contact support.</value>
+  </data>
+  <data name="CONN_PAGE_MISSINGBINARY" xml:space="preserve">
+    <value>Not all appliance files are available. Programming disabled.</value>
+  </data>
+  <data name="APPLIANCE_FLASH_FINISH_INSTRUCTION" xml:space="preserve">
+    <value>Programming finished. Appliance must be switched back to Normal System by clicking Back-Button.</value>
+  </data>
+  <data name="WARNING_OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="FIRMWARE_SINGLE_DL_FAIL_MSG" xml:space="preserve">
+    <value>Download process is successfully finished, although a few files couldn't be downloaded. Please try again.</value>
+  </data>
+  <data name="ERROR_LOG_TIMESTAMP_POPUPHEADER" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="ST_PAGE_FAILED_XSUM" xml:space="preserve">
+    <value>Appliance files not up to date (server)</value>
+  </data>
+  <data name="APPLIANCE_ECU_FAIL" xml:space="preserve">
+    <value>ECU Firmware installation failed.Some LEDs or the display may now turn on. Ignore this an press OK to continue!
+Repeat the update and create an eFSB if not working!
+Eventually, installations will be done by SPAU after closing iService and rebooting the appliance.</value>
+  </data>
+  <data name="TRANSITION_TO_BRIDGE_SETTINGS_TITLE" xml:space="preserve">
+    <value>Connect to WiFi Bridge</value>
+  </data>
+  <data name="RECOVERY_PAGE_POPUP_MSG" xml:space="preserve">
+    <value>Automatic reconnection to appliance Wi - Fi was not successful. Go to Settings of your mobile device and choose the network starting with "BSH..." . Afterwards click OK.</value>
+  </data>
+  <data name="APPLIANCE_FLASH_DATA_NOT_WHITELISTED" xml:space="preserve">
+    <value>Software cannot be installed on this SystemMaster module, because a newer version is already present. Please try to use another SystemMaster module.</value>
+  </data>
+  <data name="WIFI_INFO_ALERT_MESSAGE" xml:space="preserve">
+    <value>Password Copied</value>
+  </data>
+  <data name="CONN_PAGE_FLASHING_DISABLED_SMM_CONN_DEVICE_FAILED_TO_COMMUNICATE" xml:space="preserve">
+    <value>Program disabled. Failed to communicate with Appliance.</value>
+  </data>
+  <data name="APPLIANCE_FLASH_NODE_NA" xml:space="preserve">
+    <value>Node is not available for</value>
+  </data>
+  <data name="BRIDGE_UPGRADE_TEXT" xml:space="preserve">
+    <value>Bridge Upgrade</value>
+  </data>
+  <data name="APPLIANCE_PROGRAMMING_NOT_SUCCESSFUL" xml:space="preserve">
+    <value>Programming not successful. Please contact support or try again.</value>
+  </data>
+  <data name="NO_INTERNET" xml:space="preserve">
+    <value>Please check your internet connection to continue.</value>
+  </data>
+  <data name="PREPARE_YOUR_WORK_INVALID_ENUMBERS" xml:space="preserve">
+    <value>One or more E-numbers are not valid. Please ensure that all E-numbers selected for download are valid.</value>
+  </data>
+  <data name="INFORMATION_TEXT" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="ALL_TEXT" xml:space="preserve">
+    <value>ALL</value>
+  </data>
+  <data name="CONNECTED_TEXT" xml:space="preserve">
+    <value>Connected</value>
+  </data>
+  <data name="USED_LIBRARIES_HEADER" xml:space="preserve">
+    <value>Used Libraries</value>
+  </data>
+  <data name="SMM_CONN_DEVICE_BOOT_MODE_SET" xml:space="preserve">
+    <value>Boot mode set.</value>
+  </data>
+  <data name="BACK_TEXT" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="FEEDBACK_PAGE_ATTACHMENT_LABEL" xml:space="preserve">
+    <value>Attachment: iS5log.txt</value>
+  </data>
+  <data name="BINARY_UPLOAD_FAILED" xml:space="preserve">
+    <value>Failed to upload Binary.</value>
+  </data>
+  <data name="ST_NO_INTERNET" xml:space="preserve">
+    <value>Activate Internet to download</value>
+  </data>
+  <data name="APPLIANCE_FLASH_RETURN" xml:space="preserve">
+    <value>Return</value>
+  </data>
+  <data name="CONN_PAGE_LOGGING_DISABLED_IN_RECOVERY" xml:space="preserve">
+    <value>Error log not available in recovery system</value>
+  </data>
+  <data name="CONN_PAGE_CONTROL_DISABLED_MISSING_MONITORING_FILES" xml:space="preserve">
+    <value>Control disabled. Monitoring files are missing.</value>
+  </data>
+  <data name="METADATA_DOWNLOAD_PERMISSION_TEXT" xml:space="preserve">
+    <value>In order to use iService5 you must download the latest appliance list (approx. 100 MB).</value>
+  </data>
+  <data name="METADATA_DL_CHECK_SUM_FAIL" xml:space="preserve">
+    <value>There was a problem while downloading appliance list. Please try again later.</value>
+  </data>
+  <data name="WARNING_CANCEL" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="FILTERING_OPTIONS_TEXT" xml:space="preserve">
+    <value>Filtering Options</value>
+  </data>
+  <data name="ACCEPT_LABEL" xml:space="preserve">
+    <value>Accept</value>
+  </data>
+  <data name="SYMANA_PROGRAMMING_CONTINUED" xml:space="preserve">
+    <value>Programming Continued...</value>
+  </data>
+  <data name="PREPARE_WORK_INSTRUCTIONS" xml:space="preserve">
+    <value>Search for an E-Number. Click "Add". When all E-Numbers have been selected, click "Download" to get the related appliance files.</value>
+  </data>
+  <data name="VARCODING_OPTIONS_LABEL" xml:space="preserve">
+    <value>Choose Code Set:</value>
+  </data>
+  <data name="CONN_PAGE_ENTER_WIFI_PASS_OF_BRIDGE" xml:space="preserve">
+    <value>Enter WiFi password of iService bridge.</value>
+  </data>
+  <data name="SMM_CONN_DEVICE_FAILED_TO_COMMUNICATE" xml:space="preserve">
+    <value>Failed to communicate with Appliance</value>
+  </data>
+  <data name="BRIDGE_SETTINGS_RANGE_HELP" xml:space="preserve">
+    <value>Range is between {0} and {1}</value>
+  </data>
+  <data name="DOWNLOAD_SETTINGS_CONFIGURE_TEXT" xml:space="preserve">
+    <value>Please configure your download settings first, before starting the download process</value>
+  </data>
+  <data name="ERROR_LOG_TIMESTAMP_POPUPSTRING" xml:space="preserve">
+    <value>If appliance is not paired with HomeConnect, timestamp may not be correct.</value>
+  </data>
+  <data name="SMM_CONN_SERIAL_NUMBER" xml:space="preserve">
+    <value>Serial Number</value>
+  </data>
+  <data name="APPLIANCE_FLASH_NO_NEWER_VERSION" xml:space="preserve">
+    <value>SystemMaster firmware on the appliance is newer than available database.</value>
+  </data>
+  <data name="SMM_CONN_COUNTRY_SETTINGS" xml:space="preserve">
+    <value>Country Settings</value>
+  </data>
+  <data name="BRIDGE_SETTINGS_ERROR_MESSAGE" xml:space="preserve">
+    <value>Bridge settings unavailable.</value>
+  </data>
+  <data name="RELATED_REPAIR_VIST" xml:space="preserve">
+    <value>Related repair visit:</value>
+  </data>
+  <data name="WEBSOCKET_CONN_INITIALIZED" xml:space="preserve">
+    <value>Web Socket Initialization successful</value>
+  </data>
+  <data name="LOCATION_PERMISSION_RATIONALE_LATEST_ANDROID" xml:space="preserve">
+    <value>Please go to iService5 app settings and allow access to location services with precise location enabled.</value>
+  </data>
+  <data name="SVG_PARSING_FAILED" xml:space="preserve">
+    <value>Unable to show the connection diagram as file has some problem.</value>
+  </data>
+  <data name="FEEDBACK_PAGE_TITLE_LABEL" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="LOCAL_NETWORK_PERMISSION_POPUP" xml:space="preserve">
+    <value>Please go to iService5 app settings and allow access to Local Network.</value>
+  </data>
+  <data name="APPLIANCE_FLASH_APPLY_HA_SETTINGS" xml:space="preserve">
+    <value>Applying HA Settings</value>
+  </data>
+  <data name="APPLIANCE_INSTRUCTIONS_DISCONNECTED" xml:space="preserve">
+    <value>Disconnected</value>
+  </data>
+  <data name="APPLIANCE_FLASH_FAILED_TO_SET_BOOTMODE" xml:space="preserve">
+    <value>Failed to set bootmode</value>
+  </data>
+  <data name="RE_DOWNLOAD_ENUMBERS" xml:space="preserve">
+    <value>Redownload E-Number</value>
+  </data>
+  <data name="PPF_REFETCH_INFORMATION_TEXT" xml:space="preserve">
+    <value>All PPF files are going to be deleted. You have to do a Data Update afterwards in order to re-download them (requires serveral hours). Do you want to proceed?</value>
+  </data>
+  <data name="CONN_PAGE_CODING_DISABLED_MISSING_FILE" xml:space="preserve">
+    <value>Coding disabled. Files are missing.</value>
+  </data>
+  <data name="CONTROL" xml:space="preserve">
+    <value>Control</value>
+  </data>
+  <data name="APPLIANCE_FLASH_INSTALLING" xml:space="preserve">
+    <value>Installing</value>
+  </data>
+  <data name="HOME_PAGE_DATABASE_STATUS" xml:space="preserve">
+    <value>Update of appliance files required</value>
+  </data>
+  <data name="Binary_Download_ProgressAlert" xml:space="preserve">
+    <value>Keep this page open until download is finished.</value>
+  </data>
+  <data name="ERROR_LOG_EC_LABEL" xml:space="preserve">
+    <value>Error Code</value>
+  </data>
+  <data name="APPLIANCE_FLASH_QUESTION" xml:space="preserve">
+    <value>Program all or only new firmware packages?</value>
+  </data>
+  <data name="AVAILABLE_STORAGE_ON_DEVICE" xml:space="preserve">
+    <value>Available storage on your device: </value>
+  </data>
+  <data name="APPLIANCE_FLASH_FINISH_BUTTON" xml:space="preserve">
+    <value>Finish</value>
+  </data>
+  <data name="PPF_REFETCH_SKIP_MESSAGE" xml:space="preserve">
+    <value>(Update is required for programming SystemMaster)</value>
+  </data>
+  <data name="PASSWORD_TEXT" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="DATA_LOGGER_TEXT" xml:space="preserve">
+    <value>Data Logger</value>
+  </data>
+  <data name="APPLIANCE_FLASH_PROGRAMMING_DONE" xml:space="preserve">
+    <value>Programming done. Click Finish button to switch to normal system.</value>
+  </data>
+  <data name="SYMANA_ALL_MODULES_ARE_UP_TO_DATE" xml:space="preserve">
+    <value>All Modules Are Up-to-Date</value>
+  </data>
+  <data name="HA_INFO_RETRY_MESSAGE" xml:space="preserve">
+    <value>iService could not receive data from home appliance. Please try again.</value>
+  </data>
+  <data name="CONN_PAGE_CODING_DISABLED_NOT_AVAILABLE" xml:space="preserve">
+    <value>Coding not available for this appliance.</value>
+  </data>
+  <data name="CALLIBRATION_INTERVAL_LABEL" xml:space="preserve">
+    <value>ClampAmp Callibration Interval</value>
+  </data>
+  <data name="APPLIANCE_UNZIP_FAILURES" xml:space="preserve">
+    <value>Extracting binary files failed</value>
+  </data>
+  <data name="LOGIN_PAGE_LOGIN_BUTTON" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="CONN_PAGE_TEXT2BRIDGE" xml:space="preserve">
+    <value>Turn on iService bridge.</value>
+  </data>
+  <data name="ST_PAGE_DOWNLOADING2" xml:space="preserve">
+    <value>files</value>
+  </data>
+  <data name="REPAIR_PAGE_DOWNLOADING2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="APPLIANCE_FLASH_ALREADY_UPD" xml:space="preserve">
+    <value>Data is already up-to-date. In case of functional problems, you may re-program.</value>
+  </data>
+  <data name="FEEDBACK_PAGE_SEND_BUTTON" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="FIRMWARE_DL_FAIL_MSG" xml:space="preserve">
+    <value>Download process is successfully finished, although a few files couldn't be downloaded. Please try again.</value>
+  </data>
+  <data name="APPLIANCE_FLASH_QUERY_NONE_NEW" xml:space="preserve">
+    <value>Latest available firmware is already installed.</value>
+  </data>
+  <data name="AVAILABLE_STORAGE" xml:space="preserve">
+    <value>Available Storage:</value>
+  </data>
+  <data name="SYMANA_INSTALLATION_ERROR_WITH_WRONG_RESULT_CODE" xml:space="preserve">
+    <value>StartInstallation interrupted with result code </value>
+  </data>
+  <data name="NO_HISTORY_TO_DISPLAY" xml:space="preserve">
+    <value>No history to display.</value>
+  </data>
+  <data name="APPLIANCE_BOOT_MODE_RECOVERY" xml:space="preserve">
+    <value>Recovery System</value>
+  </data>
+  <data name="PROGRAMMING_FAILED" xml:space="preserve">
+    <value>Programming Failed</value>
+  </data>
+  <data name="FEEDBACK_PAGE_TO_LABEL" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="ST_PAGE_DWL_START" xml:space="preserve">
+    <value>Download will start after</value>
+  </data>
+  <data name="ST_PAGE_DWL_TODAY" xml:space="preserve">
+    <value>today</value>
+  </data>
+  <data name="APPLIANCE_FLASH_RESTART_PROGRAMMING" xml:space="preserve">
+    <value>Restart Programming</value>
+  </data>
+  <data name="REFETCH_PPFs" xml:space="preserve">
+    <value>Refetch PPFs</value>
+  </data>
+  <data name="NONSMM_MEMORY_LOG_MSGD_LABEL" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="LOG_SESSION_DOWNLOAD_BUTTON" xml:space="preserve">
+    <value>Download</value>
+  </data>
+  <data name="GRAPHIC_PAGE_CONNECT_TEXT_SUBHEADER" xml:space="preserve">
+    <value>(Unprogrammed SystemMaster opens WiFi hotspot automatically.)</value>
+  </data>
+  <data name="NEED_ACCOUNT_PAGE_TITLE_LABEL" xml:space="preserve">
+    <value>Need an account?</value>
+  </data>
+  <data name="ST_PAGE_USED_STORAGE" xml:space="preserve">
+    <value>Used Storage:</value>
+  </data>
+  <data name="SYMANA_PROGRAMMING_SUCCESSFUL" xml:space="preserve">
+    <value>Programming is successfully done.</value>
+  </data>
+  <data name="INSTALLED_ECU" xml:space="preserve">
+    <value>Installed ECU</value>
+  </data>
+  <data name="CONN_PAGE_BRIDGE_MOBILE" xml:space="preserve">
+    <value>Establish WiFi connection between iService bridge and mobile device.</value>
+  </data>
+  <data name="APPLIANCE_FLASH_AFTER_REBOOT" xml:space="preserve">
+    <value>Firmware of other modules will be uploaded, but can be installed by SMM only after rebooting.</value>
+  </data>
+  <data name="FILE_SIZE_TO_BE_DOWNLOADED_TEXT" xml:space="preserve">
+    <value>Size of files to be downloaded:</value>
+  </data>
+  <data name="BINARY_FILE_SIZE_FILTER_TEXT" xml:space="preserve">
+    <value>Enable the download of E-numbers larger than {placeholder} MB</value>
+  </data>
+  <data name="BOOT_MODE_TRANSITION_APPLIANCE_IS_REBOOTING_TO_RECOVERY_EXTRA_PRT2" xml:space="preserve">
+    <value>of your mobile device and choose the network starting with "BSH..."</value>
+  </data>
+  <data name="BOOT_MODE_TRANSITION_APPLIANCE_IS_REBOOTING_TO_RECOVERY_EXTRA_PRT1" xml:space="preserve">
+    <value>If automatic reconnection was not successful, go to</value>
+  </data>
+  <data name="APPLIANCE_FLASH_BUTTON" xml:space="preserve">
+    <value>Program</value>
+  </data>
+  <data name="ST_PAGE_DWL_SCHD" xml:space="preserve">
+    <value>Schedule Download Update</value>
+  </data>
+  <data name="ST_PAGE_DWL_LOCAL_FILES" xml:space="preserve">
+    <value>Downloaded Appliance Files:</value>
+  </data>
+  <data name="CONN_PAGE_MONITORING_DISABLED_TOPOGRAM_NOT_AVAILABLE" xml:space="preserve">
+    <value>Monitoring disabled. Topogram not available for this appliance.</value>
+  </data>
+  <data name="TAB_TITLE_SETTINGS" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="STATUS_PAGE_UPDATING" xml:space="preserve">
+    <value>Updating appliance list…</value>
+  </data>
+  <data name="AUXILIARY_FILES" xml:space="preserve">
+    <value>Auxiliary Files:</value>
+  </data>
+  <data name="FLASHING_TRANSITION" xml:space="preserve">
+    <value>Waiting for Flashing state to initialise</value>
+  </data>
+  <data name="LOGIN_PAGE_LOGIN_PROMPT" xml:space="preserve">
+    <value>Please sign in with your iService login data.</value>
+  </data>
+  <data name="APPLIANCE_FLASH_START_BUTTON" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="HISTORY_DETAILS_HEADER_CODING_LOG" xml:space="preserve">
+    <value>Coding</value>
+  </data>
+  <data name="CONN_PAGE_TEXT2" xml:space="preserve">
+    <value>Turn on the WiFi hotspot of the appliance.</value>
+  </data>
+  <data name="CONN_PAGE_TEXT1" xml:space="preserve">
+    <value>Please make sure your mobile device's WiFi is on.</value>
+  </data>
+  <data name="MONITORING_NO_SCREENS_TEXT" xml:space="preserve">
+    <value>No items to display.</value>
+  </data>
+  <data name="DATA_PRIVACY_POLICY_DATA" xml:space="preserve">
+    <value>The BSH Hausgeräte GmbH, with its registered office at Carl-Wery-Strasse 34, 81739 Munich, Germany (hereinafter "BSH" or "we") is responsible for the collection, processing and use of your personal data associated with the iService5 app (hereinafter "App"). BSH provides the App as a central service, even if the company you (as the App user) work for is a BSH affiliate or Service Partner. The App is for business use only and not intended for any private use.
+
+BSH collects, processes and uses personal data, which is either entered by you or otherwise created and processed in the course of using the App, in accordance with the applicable data privacy laws. The following information explains how we handle such data provided in using the App.
+        </value>
+  </data>
+  <data name="DATA_PRIVACY_POLICY_TEXT" xml:space="preserve">
+    <value>Data Privacy Policy</value>
+  </data>
+  <data name="INCORRECT_CREDENTIALS" xml:space="preserve">
+    <value>Your credentials are incorrect. Please check username and password. Password must be case sensitive. </value>
+  </data>
+  <data name="FIRMWARE_LANGUAGE_LABEL" xml:space="preserve">
+    <value>Firmware Language</value>
+  </data>
+  <data name="APPLIANCE_FLASH_FAILED" xml:space="preserve">
+    <value>failed</value>
+  </data>
+  <data name="APPLIANCE_FLASH_APPLIANCE_REBOOTED" xml:space="preserve">
+    <value>Appliance rebooted to {0}</value>
+  </data>
+  <data name="APPLIANCE_FLASH_ALL_VERSIONS" xml:space="preserve">
+    <value>All Firmware versions will be installed</value>
+  </data>
+  <data name="NON_SMM_LOG_BUTTON" xml:space="preserve">
+    <value>Memory</value>
+  </data>
+  <data name="HISTORY_DETAILS_HEADER_MONITORING_LOG" xml:space="preserve">
+    <value>Monitoring</value>
+  </data>
+  <data name="MONITORING_START_FAILED" xml:space="preserve">
+    <value>Monitoring failed to start.</value>
+  </data>
+  <data name="APPLIANCE_FLASH_PROGRAM_ALL" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="APPLIANCE_FLASH_PROGRAM_NEW" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="TIMEOUT_MESSAGE" xml:space="preserve">
+    <value>The operation has timed out.</value>
+  </data>
+  <data name="MEASURE_TITLE" xml:space="preserve">
+    <value>Mesaurement</value>
+  </data>
+  <data name="IMPRINT_DATA_3_EMAIL" xml:space="preserve">
+    <value>Email: MCW-iService-support@bshg.com
+        </value>
+  </data>
+  <data name="SMM_TEXT" xml:space="preserve">
+    <value>SystemMaster</value>
+  </data>
+  <data name="HISTORY_DETAILS_HEADER_HOME_APPLIANCE_DATA" xml:space="preserve">
+    <value>Home Appliance Data</value>
+  </data>
+  <data name="IMPRINT_DATA_1" xml:space="preserve">
+    <value>BSH Hausgeräte GmbH
+Carl-Wery-Str. 34
+81739 Munich
+Germany
+  </value>
+  </data>
+  <data name="IMPRINT_DATA_2" xml:space="preserve">
+    <value>Dr. Matthias Metz (Chairman and CEO)
+        Dr. Alexander Dony
+        Dr. Thorsten Lücke
+        Rudolf Klötscher
+        Lars Schubert
+    </value>
+  </data>
+  <data name="IMPRINT_DATA_4" xml:space="preserve">
+    <value>BSH Hausgeräte GmbH, a company with limited liability established in accordance with German law, headquartered in Munich, registered in the commercial register of the Munich local court with the number HRB 75534. A company of the Bosch Group.
+VAT identification number: DE811150483
+D-U-N-S number: 315531558
+WEEE-Reg.-Nr. DE 57986696
+  </value>
+  </data>
+  <data name="IMPRINT_DATA_5" xml:space="preserve">
+    <value>Copyright 2024 BSH Hausgeräte GmbH, Germany. All rights reserved. Text, illustrations, graphics, sound, animations and videos, as well as their arrangement in this app, are subject to copyright and other protective legislation. The contents in this app may not be copied, distributed, modified or made available to third parties for commercial purposes. Certain of the illustrations in this app are further subject to third party copyright. </value>
+  </data>
+  <data name="IMPRINT_DATA_6" xml:space="preserve">
+    <value>Unless otherwise specified, all trademarks in this app are protected by proprietary rights. This applies in particular to BSH brands, nameplates, corporate logos and emblems. BSH is a trademark licensee of Robert Bosch GmbH for the Bosch brand and Siemens AG for the Siemens brand.</value>
+  </data>
+  <data name="CONN_PAGE_CHOOSE_BSH_NET" xml:space="preserve">
+    <value>of your mobile device and choose the network starting with "BSH...". </value>
+  </data>
+  <data name="CONN_PAGE_DBUS_DISCONNECTED" xml:space="preserve">
+    <value>DBus not yet available. Checking connection...</value>
+  </data>
+  <data name="APPLIANCE_FLASH_CANCEL_TEXT" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="APPLIANCE_INSTALL_REPAIR_POPUP_READY_TO_DISPLAY" xml:space="preserve">
+    <value>ECU popup ready to display </value>
+  </data>
+  <data name="VALUE_TITLE" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="CONTINUE_TEXT" xml:space="preserve">
+    <value>Continue</value>
+  </data>
+  <data name="ST_PAGE_OF" xml:space="preserve">
+    <value>of</value>
+  </data>
+  <data name="BOOT_MODE_TRANSITION_APPLIANCE_RECONNECT_AFTERWARDS" xml:space="preserve">
+    <value>WiFi hotspot of appliance will be deactivated.
+If necessary, you can reconnect afterwards.</value>
+  </data>
+  <data name="CONN_PAGE_FLASHING_DISABLED_MISSING_FILES" xml:space="preserve">
+    <value>Flashing disabled. Files are missing.</value>
+  </data>
+  <data name="FEEDBACK_PAGE_GOONLINE" xml:space="preserve">
+    <value>Your feedback will be sent as soon as you are connected to the internet.</value>
+  </data>
+  <data name="LEGAL_INFO_TEXT" xml:space="preserve">
+    <value>Information regarding Free and Open Source Software.
+Please find the applicable license texts at the end of the document.
+
+Component: Android Platform Frameworks Support
+License: Apache 2.0
+Copyright statements:
+  (C) 2007 The Android Open Source Project
+  (C) 2008 The Android Open Source Project
+  (C) 2010 The Android Open Source Project
+  (C) 2012 The Android Open Source Project
+  (C) 2013 The Android Open Source Project
+  (C) 2014 The Android Open Source Project
+  (C) 2015 The Android Open Source Project
+  (C) 2016 The Android Open Source Project
+  (C) 2016 The Android Open Source Project
+  (C) 2017 The Android Open Source Project
+  (C) 2018 The Android Open Source Project
+  (C) 2019 The Android Open Source Project
+___________________________________________
+
+Component: Xamarin Forms
+License: MIT
+Copyright statements:
+Copyright (c) .NET Foundation Contributors
+___________________________________________
+            
+LICENSE TEXTS:
+Apache 2.0:
+Apache License
+Version 2.0, January 2004
+http://www.apache.org/licenses/
+
+TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+
+1. Definitions.
+"License" shall mean the terms and conditions for use, reproduction, and distribution as defined by Sections 1 through 9 of this document.
+
+"Licensor" shall mean the copyright owner or entity authorized by the copyright owner that is granting the License.
+
+"Legal Entity" shall mean the union of the acting entity and all other entities that control, are controlled by, or are under common control with that entity. For the purposes of this definition, "control" means (i) the power, direct or indirect, to cause the direction or management of such entity, whether by contract or otherwise, or (ii) ownership of fifty percent (50%) or more of the outstanding shares, or (iii) beneficial ownership of such entity.
+
+"You" (or "Your") shall mean an individual or Legal Entity exercising permissions granted by this License.
+
+"Source" form shall mean the preferred form for making modifications, including but not limited to software source code, documentation source, and configuration files.
+
+"Object" form shall mean any form resulting from mechanical transformation or translation of a Source form, including but not limited to compiled object code, generated documentation, and conversions to other media types.
+
+"Work" shall mean the work of authorship, whether in Source or Object form, made available under the License, as indicated by a copyright notice that is included in or attached to the work (an example is provided in the Appendix below).
+
+"Derivative Works" shall mean any work, whether in Source or Object form, that is based on (or derived from) the Work and for which the editorial revisions, annotations, elaborations, or other modifications represent, as a whole, an original work of authorship. For the purposes of this License, Derivative Works shall not include works that remain separable from, or merely link (or bind by name) to the interfaces of, the Work and Derivative Works thereof.
+
+"Contribution" shall mean any work of authorship, including the original version of the Work and any modifications or additions to that Work or Derivative Works thereof, that is intentionally submitted to Licensor for inclusion in the Work by the copyright owner or by an individual or Legal Entity authorized to submit on behalf of the copyright owner. For the purposes of this definition, "submitted" means any form of electronic, verbal, or written communication sent to the Licensor or its representatives, including but not limited to communication on electronic mailing lists, source code control systems, and issue tracking systems that are managed by, or on behalf of, the Licensor for the purpose of discussing and improving the Work, but excluding communication that is conspicuously marked or otherwise designated in writing by the copyright owner as "Not a Contribution."
+
+"Contributor" shall mean Licensor and any individual or Legal Entity on behalf of whom a Contribution has been received by Licensor and subsequently incorporated within the Work.
+
+2. Grant of Copyright License. Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright license to reproduce, prepare Derivative Works of, publicly display, publicly perform, sublicense, and distribute the Work and such Derivative Works in Source or Object form.
+3. Grant of Patent License. Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable (except as stated in this section) patent license to make, have made, use, offer to sell, sell, import, and otherwise transfer the Work, where such license applies only to those patent claims licensable by such Contributor that are necessarily infringed by their Contribution(s) alone or by combination of their Contribution(s) with the Work to which such Contribution(s) was submitted. If You institute patent litigation against any entity (including a cross-claim or counterclaim in a lawsuit) alleging that the Work or a Contribution incorporated within the Work constitutes direct or contributory patent infringement, then any patent licenses granted to You under this License for that Work shall terminate as of the date such litigation is filed.
+4. Redistribution. You may reproduce and distribute copies of the Work or Derivative Works thereof in any medium, with or without modifications, and in Source or Object form, provided that You meet the following conditions:
+(a) You must give any other recipients of the Work or Derivative Works a copy of this License; and
+(b) You must cause any modified files to carry prominent notices stating that You changed the files; and
+(c) You must retain, in the Source form of any Derivative Works that You distribute, all copyright, patent, trademark, and attribution notices from the Source form of the Work, excluding those notices that do not pertain to any part of the Derivative Works; and
+(d) If the Work includes a "NOTICE" text file as part of its distribution, then any Derivative Works that You distribute must include a readable copy of the attribution notices contained within such NOTICE file, excluding those notices that do not pertain to any part of the Derivative Works, in at least one of the following places: within a NOTICE text file distributed as part of the Derivative Works; within the Source form or documentation, if provided along with the Derivative Works; or, within a display generated by the Derivative Works, if and wherever such third-party notices normally appear. The contents of the NOTICE file are for informational purposes only and do not modify the License. You may add Your own attribution notices within Derivative Works that You distribute, alongside or as an addendum to the NOTICE text from the Work, provided that such additional attribution notices cannot be construed as modifying the License.
+You may add Your own copyright statement to Your modifications and may provide additional or different license terms and conditions for use, reproduction, or distribution of Your modifications, or for any such Derivative Works as a whole, provided Your use, reproduction, and distribution of the Work otherwise complies with the conditions stated in this License.
+
+5. Submission of Contributions. Unless You explicitly state otherwise, any Contribution intentionally submitted for inclusion in the Work by You to the Licensor shall be under the terms and conditions of this License, without any additional terms or conditions. Notwithstanding the above, nothing herein shall supersede or modify the terms of any separate license agreement you may have executed with Licensor regarding such Contributions.
+6. Trademarks. This License does not grant permission to use the trade names, trademarks, service marks, or product names of the Licensor, except as required for reasonable and customary use in describing the origin of the Work and reproducing the content of the NOTICE file.
+7. Disclaimer of Warranty. Unless required by applicable law or agreed to in writing, Licensor provides the Work (and each Contributor provides its Contributions) on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied, including, without limitation, any warranties or conditions of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A PARTICULAR PURPOSE. You are solely responsible for determining the appropriateness of using or redistributing the Work and assume any risks associated with Your exercise of permissions under this License.
+8. Limitation of Liability. In no event and under no legal theory, whether in tort (including negligence), contract, or otherwise, unless required by applicable law (such as deliberate and grossly negligent acts) or agreed to in writing, shall any Contributor be liable to You for damages, including any direct, indirect, special, incidental, or consequential damages of any character arising as a result of this License or out of the use or inability to use the Work (including but not limited to damages for loss of goodwill, work stoppage, computer failure or malfunction, or any and all other commercial damages or losses), even if such Contributor has been advised of the possibility of such damages.
+9. Accepting Warranty or Additional Liability. While redistributing the Work or Derivative Works thereof, You may choose to offer, and charge a fee for, acceptance of support, warranty, indemnity, or other liability obligations and/or rights consistent with this License. However, in accepting such obligations, You may act only on Your own behalf and on Your sole responsibility, not on behalf of any other Contributor, and only if You agree to indemnify, defend, and hold each Contributor harmless for any liability incurred by, or claims asserted against, such Contributor by reason of your accepting any such warranty or additional liability.
+END OF TERMS AND CONDITIONS
+
+APPENDIX: How to apply the Apache License to your work.
+
+To apply the Apache License to your work, attach the following boilerplate notice, with the fields enclosed by brackets "[]" replaced with your own identifying information. (Don't include the brackets!) The text should be enclosed in the appropriate comment syntax for the file format. We also recommend that a file or class name and description of purpose be included on the same "printed page" as the copyright notice for easier identification within third-party archives.
+
+Copyright [yyyy] [name of copyright owner]
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+
+MIT License:
+
+The MIT License (MIT)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</value>
+  </data>
+  <data name="APPLIANCE_INSTALL_REPAIR_POPUP_CLOSING" xml:space="preserve">
+    <value>Automatically closing popup in order to successfully continue process</value>
+  </data>
+  <data name="APPLIANCE_FLASH_QUERY_FLASH_ONLY_NEW" xml:space="preserve">
+    <value>Program only new</value>
+  </data>
+  <data name="APPLIANCE_FLASH_QUERY_OLD" xml:space="preserve">
+    <value>Available firmware is out of date. Please download latest files.</value>
+  </data>
+  <data name="BOOT_MODE_TRANSITION_APPLIANCE_ADDITIONAL_REBOOTING" xml:space="preserve">
+    <value>Recovery System has been updated. A reboot is necessary.</value>
+  </data>
+  <data name="APPLIANCE_FLASH_INFORMATION" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="CODING_TRANSITION" xml:space="preserve">
+    <value>Waiting for Coding state to initialise</value>
+  </data>
+  <data name="AVAILABLE_DATA_TEXT" xml:space="preserve">
+    <value>Available Data</value>
+  </data>
+  <data name="SSH_COMMAND_ERROR" xml:space="preserve">
+    <value>Connection to bridge not possible. Your iService bridge might not be in iService5 mode. Please go to iService4 administrator console and activate bridge.
+</value>
+  </data>
+  <data name="SMM_CONN_SIEMENS" xml:space="preserve">
+    <value>Siemens</value>
+  </data>
+  <data name="ENUMBER_MISMATCH" xml:space="preserve">
+    <value>The entered E-number differs from the one stored in the appliance</value>
+  </data>
+  <data name="CODING_SUCCESSFUL" xml:space="preserve">
+    <value>Coding successful!</value>
+  </data>
+  <data name="APPLIANCE_FLASH_CODING_AFTER_FLASH_WRONG" xml:space="preserve">
+    <value>Coding activation response was not valid.</value>
+  </data>
+  <data name="CONNECT_BTN_LABEL" xml:space="preserve">
+    <value>CONNECT</value>
+  </data>
+  <data name="MONITORING_PARSING_ERROR" xml:space="preserve">
+    <value>Not able to show Monitoring. Please contact support.</value>
+  </data>
+  <data name="RETRIEVING_CERTIFICATE_TEXT" xml:space="preserve">
+    <value>Retrieving Certificate</value>
+  </data>
+  <data name="BRIDGE_SETTINGS_TEXT" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="BRIDGE_SETTINGS_SAVE" xml:space="preserve">
+    <value>Save Settings</value>
+  </data>
+  <data name="APPLIANCE_FLASH_PURGE" xml:space="preserve">
+    <value>Delete all data and settings? (Home Connect data and serial number will be deleted. Re-Pairing will be required.)</value>
+  </data>
+  <data name="APPLIANCE_FLASH_RETRY" xml:space="preserve">
+    <value>Try again</value>
+  </data>
+  <data name="APPLIANCE_FLASH_HA_NA" xml:space="preserve">
+    <value>No HA Info to apply</value>
+  </data>
+  <data name="APPLIANCE_ECU_REPSONSE_ARRIVED" xml:space="preserve">
+    <value>ECU response arrived</value>
+  </data>
+  <data name="BOOT_MODE_TRANSITION_APPLIANCE_IS_REBOOTING_TO_ELP" xml:space="preserve">
+    <value>Appliance is rebooting back to Normal System.</value>
+  </data>
+  <data name="FEEDBACK_PAGE_NOT_RELATED_TO_ENUMBER" xml:space="preserve">
+    <value>General problem</value>
+  </data>
+  <data name="NEED_ACCOUNT_PAGE_DETAILS_LABEL" xml:space="preserve">
+    <value>iService5 is a mobile application to support service technicians during the repair of BSH home appliances by providing failure diagnosis and software updates.
+
+Login data for iService5 are the same you may already use for iService3, iService4 or Quickfinder. If you don’t have this information, please contact your local BSH iService support.
+     </value>
+  </data>
+  <data name="MONITORING" xml:space="preserve">
+    <value>Monitoring</value>
+  </data>
+  <data name="DOWNLOADING_TEXT" xml:space="preserve">
+    <value>Downloading</value>
+  </data>
+  <data name="SYMANA_SETTING_HAINFO" xml:space="preserve">
+    <value>Setting HAInfo…</value>
+  </data>
+  <data name="ERROR_SET_HA_CUSTOMER_INDEX" xml:space="preserve">
+    <value>Failed to Set Customer Index</value>
+  </data>
+  <data name="RETRY_LABEL" xml:space="preserve">
+    <value>Retry</value>
+  </data>
+  <data name="BRIDGE_SETTINGS_INTEGER_HELP" xml:space="preserve">
+    <value>Value should be a number with max value {0}</value>
+  </data>
+  <data name="HA_INFO_RETRY_MESSAGE_MOBILE_DATA_ENABLED" xml:space="preserve">
+    <value>iService could not receive data from home appliance. Please make sure the mobile data connection is disabled and try again.</value>
+  </data>
+  <data name="NOT_YET_AVAILABLE" xml:space="preserve">
+    <value>not yet available</value>
+  </data>
+  <data name="CONN_PAGE_FLASHING_DISABLED_NOTSMM" xml:space="preserve">
+    <value>Program disabled. This is not a SystemMaster appliance with WiFi.</value>
+  </data>
+  <data name="VALIDATION_TITLE" xml:space="preserve">
+    <value>Validation</value>
+  </data>
+  <data name="SCHEMA_CHANGE_TEXT" xml:space="preserve">
+    <value>Please wait while updating schema changes...</value>
+  </data>
+  <data name="APPLIANCE_FLASH_PREPERATION_FAILED" xml:space="preserve">
+    <value>Something went wrong. Please contact support or try again.</value>
+  </data>
+  <data name="STATUS_PAGE_PREPARING" xml:space="preserve">
+    <value>Preparing appliance list…</value>
+  </data>
+  <data name="TAB_TITLE_REPAIR" xml:space="preserve">
+    <value>Repair</value>
+  </data>
+  <data name="METADATA_DOWNLOAD_UPDATE_PERMISSION_TEXT" xml:space="preserve">
+    <value>In order to search for the latest appliances and download related appliance files, we recommend to update your appliance list (100 MB).</value>
+  </data>
+  <data name="CALLIBRATION_ONCE_A_WEEK" xml:space="preserve">
+    <value>Once a week</value>
+  </data>
+  <data name="NO_TEXT" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="INSTALL_REPAIR_ECU" xml:space="preserve">
+    <value>ECU Firmware is being installed right now. Wait and don't interrupt power supply until this process is finished. This may take up to 30 min.</value>
+  </data>
+  <data name="LOGIN_PAGE_LOGIN_FAILURE_INDICATION_LOCAL" xml:space="preserve">
+    <value>Your login data is incorrect. Please check your entered information.</value>
+  </data>
+  <data name="CONN_PAGE_ENTER_WIFI_PASS" xml:space="preserve">
+    <value>Enter WiFi password of home appliance.</value>
+  </data>
+  <data name="APPLIANCE_FLASH_DISCONNECTION_ERROR" xml:space="preserve">
+    <value>Can't disconnect from device WiFi.</value>
+  </data>
+  <data name="APPLIANCE_FLASH_ONLY_NEW" xml:space="preserve">
+    <value>New FW versions will be installed</value>
+  </data>
+  <data name="APPLIANCE_FLASH_DIFF_VERSIONS" xml:space="preserve">
+    <value>Different Versions</value>
+  </data>
+  <data name="HISTORY_DETAILS_HEADER_DATE_TIME_OF_REPAIR" xml:space="preserve">
+    <value>Date &amp; Time of Repair</value>
+  </data>
+  <data name="DELETE_APPLIANCE_FILES_WARNIG_TEXT" xml:space="preserve">
+    <value>Clicking button below will delete all downloaded appliance files (binaries) on your device.
+Please note: A new download may require some time and internet connnection.</value>
+  </data>
+  <data name="APPLIANCE_BOOT_MODE_NORMAL" xml:space="preserve">
+    <value>Normal System</value>
+  </data>
+  <data name="APPLIANCE_SORT_FAILURES" xml:space="preserve">
+    <value>Sorting files failed</value>
+  </data>
+  <data name="LOCATION_ENABLE_ALERT" xml:space="preserve">
+    <value>Turn on Location Services to allow iService5 to determine the connected WiFi network</value>
+  </data>
+  <data name="CONN_PAGE_MODE_CHANGE_DISABLED_SMM_CONN_DEVICE_NOT_COMPLETE" xml:space="preserve">
+    <value>Mode Switch disabled. Communication with appliance is not complete.</value>
+  </data>
+  <data name="GRAPHIC_PAGE_CONNECT_TEXT" xml:space="preserve">
+    <value>Turn on the WiFi hotspot of the appliance.</value>
+  </data>
+  <data name="ST_PAGE_CANCEL" xml:space="preserve">
+    <value>Cancel Download</value>
+  </data>
+  <data name="APPLIANCE_FLASH_FILES_FOR_NODE" xml:space="preserve">
+    <value>Uploading Firmware Files</value>
+  </data>
+  <data name="ERROR_DETAIL_DATE_TIME_LABEL" xml:space="preserve">
+    <value>Date &amp; Time</value>
+  </data>
+  <data name="CODING_FAILED_TO_INITIALIZE" xml:space="preserve">
+    <value>Failed to initialize coding.</value>
+  </data>
+  <data name="DIRECTLY_GO_TO_HOME_SCREEN_PART1" xml:space="preserve">
+    <value>Directly go to</value>
+  </data>
+  <data name="DIRECTLY_GO_TO_HOME_SCREEN_PART2" xml:space="preserve">
+    <value>Home screen.</value>
+  </data>
+  <data name="APPLIANCE_FLASH_UPLOADING" xml:space="preserve">
+    <value>Uploading</value>
+  </data>
+  <data name="ST_WIFI_RESTRICTION" xml:space="preserve">
+    <value>Activate WiFi to download</value>
+  </data>
+  <data name="REPORT_A_PROBLEM_TEXT" xml:space="preserve">
+    <value>Report a problem</value>
+  </data>
+  <data name="MEMORY_PAGE_NOTSUPPORTED_TITLE" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="SMM_CONN_DEVICE_DISCONNECTED" xml:space="preserve">
+    <value>Disconnected</value>
+  </data>
+  <data name="ST_PAGE_FILES2" xml:space="preserve">
+    <value>Downloading</value>
+  </data>
+  <data name="RECOMMENDED" xml:space="preserve">
+    <value>recommended</value>
+  </data>
+  <data name="SYMANA_PENDING_INSTALLATIONS_ARE_FINISHED" xml:space="preserve">
+    <value>Pending installations are being finished first..</value>
+  </data>
+  <data name="ST_PAGE_DWL_WH" xml:space="preserve">
+    <value>Working Hours</value>
+  </data>
+  <data name="ST_PAGE_DWL_NO" xml:space="preserve">
+    <value>Appliance files are up to date</value>
+  </data>
+  <data name="SYMANA_BINARY_UPLOAD_SUCCESS" xml:space="preserve">
+    <value>All modules have been successfully uploaded</value>
+  </data>
+  <data name="APPLIANCE_FLASH_ONLY_OPTIONAL" xml:space="preserve">
+    <value>Only optional FW versions to upgrade</value>
+  </data>
+  <data name="APPLIANCE_FLASH_QUERY_FLASH_CANCEL" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="CAT_SETTINGS_ERROR_MESSAGE" xml:space="preserve">
+    <value>CAT settings unavailable.</value>
+  </data>
+  <data name="ST_PAGE_DWL_TOMORROW" xml:space="preserve">
+    <value>tomorrow</value>
+  </data>
+  <data name="UPDATE_TEXT" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="MSG_FLASHING_IS_FINISHED" xml:space="preserve">
+    <value>Flashing is finished successfully.</value>
+  </data>
+  <data name="NO_LOCAL_CREDENTIALS" xml:space="preserve">
+    <value>Please connect your smart device to the internet. This is necessary to verify your user credentials.</value>
+  </data>
+  <data name="PE_CHECK_FAILED_WARNING_MESSAGE" xml:space="preserve">
+    <value>PE of power socket is conducting voltage. Unplug the Appliance-Tester!
+     Don't use this power socket anymore!
+     Inform the customer</value>
+  </data>
+  <data name="APPLIANCE_FLASH_ALREADY_ANYWAY" xml:space="preserve">
+    <value>Re-program</value>
+  </data>
+  <data name="BOOT_MODE_TRANSITION_APPLIANCE_IS_REBOOTING" xml:space="preserve">
+    <value>Appliance is rebooting.</value>
+  </data>
+  <data name="APPLIANCE_FLASH_FAILED_TO_GET_BOOTMODE" xml:space="preserve">
+    <value>Failed to retrieve bootmode or bootmode was invalid.</value>
+  </data>
+  <data name="CONN_PAGE_CONNECT_DBUS" xml:space="preserve">
+    <value>Check DBus connection</value>
+  </data>
+  <data name="LOGIN_PAGE_USERNAME_PLACEHOLDER" xml:space="preserve">
+    <value>User name</value>
+  </data>
+  <data name="CONN_PAGE_MEASURE_AND_BRIDGE_SETTING_DISABLED" xml:space="preserve">
+    <value>Measure and Bridge Settings disabled as connection to bridge not possible.</value>
+  </data>
+  <data name="FP_POPUP_PROMPT" xml:space="preserve">
+    <value>Confirm auto-login option</value>
+  </data>
+  <data name="STATUS_PAGE_GOONLINE" xml:space="preserve">
+    <value>Please go online to update your appliance list.</value>
+  </data>
+  <data name="FEEDBACK_PAGE_ATTACHMENT_PLUS_HISTORY_LABEL" xml:space="preserve">
+    <value>Attachments: iS5log.txt, visitLog.txt</value>
+  </data>
+  <data name="BRIDGE_SETTING_TEXT" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+</root>

@@ -1,0 +1,30 @@
+﻿// Decompiled with JetBrains decompiler
+// Type: iService5.Core.Services.Data.smm_module
+// Assembly: iService5.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+// MVID: D058254E-CC93-44A4-A5C7-66EA8C408758
+// Assembly location: D:\AGD\Apps\iS5\iService5_1.64_APKPure\com.bshg.iservice5.droid\out\iService5.Core.dll
+
+#nullable disable
+namespace iService5.Core.Services.Data;
+
+public class smm_module
+{
+  public string vib { get; set; }
+
+  public string ki { get; set; }
+
+  public long moduleid { get; set; }
+
+  public string version { get; set; }
+
+  public long node { get; set; }
+
+  public string type { get; set; }
+
+  public long fileSize { get; set; }
+
+  public override string ToString()
+  {
+    return $"{this.vib} {this.ki} {this.moduleid.ToString()} {this.version}";
+  }
+}
