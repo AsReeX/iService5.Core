@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36518.9
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iService5.Core", "iService5.Core\iService5.Core.csproj", "{96559514-1A8D-491A-B7F5-481E161E5C90}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ViewModels", "ViewModels", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96559514-1A8D-491A-B7F5-481E161E5C90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96559514-1A8D-491A-B7F5-481E161E5C90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96559514-1A8D-491A-B7F5-481E161E5C90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96559514-1A8D-491A-B7F5-481E161E5C90}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F8C5B7D9-95E4-4D3D-9AFC-5545C4A1C26E}
+	EndGlobalSection
+EndGlobal
