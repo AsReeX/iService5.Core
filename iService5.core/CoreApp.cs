@@ -83,7 +83,7 @@ public class CoreApp : MvxApplication
         SslValidator.initialize();
     
     //    UtilityFunctions.CleanOldLogFiles();
-    //    this.RegisterAppStart<LoginViewModel>();
+        this.RegisterAppStart<LoginViewModel>();
     //     var settingsDbPath = Path.Combine(platformService.getFolder(), "Settings.db3");
     //            Mvx.IoCProvider.RegisterSingleton<SettingsDB>(new SettingsDB(settingsDbPath));
     //            var historyDbPath = Path.Combine(platformService.getFolder(), "History.db3");

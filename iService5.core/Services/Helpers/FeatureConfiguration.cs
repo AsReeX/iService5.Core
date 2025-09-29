@@ -9,7 +9,7 @@ using System;
 #nullable disable
 namespace iService5.Core.Services.Helpers;
 
-internal static class FeatureConfiguration
+public static class FeatureConfiguration
 {
   public static readonly bool CrtPinningEnabled = string.Equals(BuildProperties.EnabledCrtPinning, "true", StringComparison.OrdinalIgnoreCase);
   public static readonly bool EnabledJailBreakCheck = string.Equals(BuildProperties.EnabledJailbreakCheck, "true", StringComparison.OrdinalIgnoreCase);
