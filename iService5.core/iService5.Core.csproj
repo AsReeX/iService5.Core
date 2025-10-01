@@ -23,6 +23,7 @@
 	<ItemGroup>
 		<PackageReference Include="AppDynamics.Agent" Version="2025.3.0" />
 		<PackageReference Include="AppDynamics.Agent.Forms" Version="2025.3.0" />
+		<PackageReference Include="CommunityToolkit.Mvvm" Version="8.4.0" />
 		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
 		<PackageReference Include="SkiaSharp" Version="3.119.1" />
 		<PackageReference Include="SkiaSharp.Views.Maui.Controls" Version="3.119.1" />
